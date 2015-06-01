@@ -1,0 +1,162 @@
+/* BLOCK EDIT: START */
+
+#page-datatype-container div.block {
+	clear: both;
+	margin: 10px 0;
+	padding-bottom: 1em;
+}
+
+div.block-header
+{
+    padding: 0.25em;
+    font-weight: bold;
+    background-color: #BFBFB7;
+    border: 1px solid #D8D8D8;
+    color: #000000;
+}
+
+div.block-content
+{
+    border-left: 1px solid #D8D8D8;
+    border-right: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    padding: 0.5em;
+}
+
+em.trigger
+{
+    vertical-align: middle;
+    margin-right: 0.5em;
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    width: 15px;
+    float: left;
+}
+
+em.expand
+{
+    background-image: url(../../images/ezpage/expand.gif);
+}
+
+em.collapse
+{
+    background-image: url(../../images/ezpage/collapse.gif);
+}
+
+div.collapsed
+{
+    display: none;
+}
+
+div.expanded
+{
+    display: block;
+}
+
+div.block-container .button
+{
+    border: 1px solid #D8D8D8;
+    background-image: url(../../images/ezpage/button_bg.png);
+    background-repeat: center top;
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    padding: 0.15em 0.5em 0.2em 0.5em;
+    cursor: pointer;
+}
+
+div.block-container div.left
+{
+	clear: none;
+    float: left;
+	margin-bottom: 5px;
+}
+
+div.block-container div.blockname .textfield
+{
+    margin-bottom: 0.5em;
+}
+
+.float-break:after
+{
+    content: "-";
+    height: 0;
+    visibility: hidden;
+    display: block; 
+    clear: both; 
+}
+
+.hidden
+{
+    display: none;
+}
+
+.visible
+{
+    display: block;
+}
+
+.float-break
+{
+    height: 1%;
+}
+
+.break
+{
+    clear: both;
+}
+
+/* BLOCK EDIT: END */
+
+.zone
+{
+    margin-bottom: 1em;
+}
+
+div.zones div.zone {
+	float: left;
+	margin-bottom: 0.5em;
+	margin-right: 0.75em;
+}
+
+div#zone-map-container
+{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+div#zone-map-container p
+{
+    font-size: 1.1em;
+}
+
+div#zone-map-container .zone-map-type
+{
+    color: #000000;
+    font-weight: bold;
+}
+
+div#zone-map-container .zone-map-item
+{
+    float: left;
+    margin: 0.5em 1em 1em 0;
+}
+
+div#zone-map-container .zone-map-item label
+{
+    margin-bottom: 0.25em;
+    color: #000000;
+}
+
+.visibility div input {
+	display: inline;
+}
+
+.visibility div label {
+	display: inline;
+	font-weight: normal;
+}
+
+hr {
+	clear: both;
+}

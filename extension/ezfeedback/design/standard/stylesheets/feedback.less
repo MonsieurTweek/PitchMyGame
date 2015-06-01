@@ -1,0 +1,158 @@
+/*-----------------------------------------------------------------------------
+  [CSS - feedback]
+
+  Feuille de style de l'extension ezfeedback
+  
+  1. Module
+  2. Formulaire
+
+-----------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------
+LESS - VARIABLES
+*/
+
+@import "variables.less";
+
+/*---------------------------------------------------------------------
+[1. MODULE]
+*/
+
+#sidebar-feedback_google_map h2 {
+    color: #181818;
+    font-size: 19px;
+    margin: 30px 0 0 0;
+}
+
+#sidebar-feedback_google_map ul.ico_phone {
+    background: url("../images/ico_phone.png") no-repeat left center;
+    color: #272928;
+    font-size: 12px;
+    list-style-type: none;
+    margin-top: 5px;
+    padding-left: 40px;
+}
+
+    #sidebar-feedback_google_map li label {
+        font-weight: bold;
+    }
+
+#sidebar-googlemap-addr {
+    background: #fff url("../images/background_module.png") repeat-x bottom left;
+    border: 1px solid #d5d5d5;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+    #sidebar-googlemap-addr address {
+        color: #000;
+        font-size: 12px;
+        font-style: normal;
+    }
+
+    #googlemap {
+        height: 273px;
+        width: 200px;
+        margin: 10px auto 0 auto;
+    }
+
+
+/*---------------------------------------------------------------------
+[2. FORMULAIRE]
+*/
+
+#full-contact_form {
+    color: #191919;
+    font-size: 12px;
+}
+
+    #full-contact_form form {
+        border: 1px solid #e0e0e0;
+        background-color: #fafafa;
+        background-image: -webkit-linear-gradient(-45deg, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.1) 33%,rgba(255,255,255,0.05) 71%,rgba(255,255,255,0.01) 91%);
+        background-image: -moz-linear-gradient(-45deg, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.1) 33%,rgba(255,255,255,0.05) 71%,rgba(255,255,255,0.01) 91%);
+        background-image: -linear-gradient(-45deg, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.1) 33%,rgba(255,255,255,0.05) 71%,rgba(255,255,255,0.01) 91%);
+        padding: 40px 70px 70px 70px;
+    }
+
+        #full-contact_form form .block {
+            margin: 15px 0;
+        }
+
+            #full-contact_form form .block label {
+                color: #131313;
+                display: inline-block;
+                font-size: 13px;
+                font-weight: bold;
+                width: 110px;
+            }
+
+                #full-contact_form form .block label .required {
+                    color: @secondColor;
+                }
+
+            #full-contact_form form .block input {
+                border: 1px solid #bcbdbc;
+                font-size: 13px;
+                padding: 2px 4px;
+                width: 400px;
+                .transition-fade;
+            }
+
+        #full-contact_form form .block:first-child {
+            margin-top: 0;
+        }
+
+        #full-contact_form form .subject-field {
+            display: inline-block;
+            width: 420px;
+        }
+
+        #full-contact_form form textarea {
+            border: 1px solid #bcbdbc;
+            height: 122px;
+            padding: 10px 10px;
+            resize: none;
+            width: 398px;
+            .transition-fade;
+        }
+
+        #full-contact_form form p.infos {
+            color: #6c6c6c;
+            padding-left: 112px;
+            text-align: left;
+        }
+
+        #full-contact_form .button {
+            border: none;
+            float: right;
+            font-size: 11px;
+        }
+
+        #full-contact_form form input:focus, #full-contact_form form textarea:focus {
+            border: 1px solid #000;
+            outline: none;
+        }
+
+    #full-contact_form .error,
+    #full-contact_form .valid {
+        background: @secondColor;
+        color: #fff;
+        margin-bottom: 0;
+        padding: 5px;
+        text-align: center;
+    }
+
+    #full-contact_form .selectBox {
+        margin-left: 3px;
+    }
+
+    #full-contact_form .selectBoxLabel {
+        display: block;
+        float: left;
+    }
+
+    #full-contact_form #subject {
+        margin-left: 3px;
+    }

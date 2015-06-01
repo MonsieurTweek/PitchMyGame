@@ -1,0 +1,261 @@
+/*-----------------------------------------------------------------------------
+  [CSS - project]
+  Feuille de style pour l'objet projet
+
+  0. General
+  1. Embed
+  2. List
+  3. Full
+  4. Additional block
+  
+-----------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------
+[0. General]
+*/
+
+/*---------------------------------------------------------------------
+[1. Embed]
+*/
+
+#embed-project {
+	overflow: hidden;
+}
+
+	#embed-project .border {
+		-moz-box-shadow: 1px 1px 4px 0px #000000;
+		-webkit-box-shadow: 1px 1px 4px 0px #000000;
+		-o-box-shadow: 1px 1px 4px 0px #000000;
+		box-shadow: 1px 1px 4px 0px #000000;
+		position: absolute;
+	}
+
+	#embed-project .thumbnail {
+		height: 150px;
+		margin-left: 10px;
+		margin-top: 10px;
+		width: 285px;
+	}
+	
+	#embed-project .title {
+		color: #FFF;
+		font-size: 20px;
+		font-weight: bold;
+		margin-top: 2px;
+		position: relative;
+		line-height: 40px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+/*---------------------------------------------------------------------
+[2. List]
+*/
+
+.list-project {
+	cursor: pointer;
+	float: left;
+	height: 150px;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	position: relative;
+	width: 420px;
+}
+
+.list-project:nth-child(2n) {
+	margin-right: 0;
+}
+
+	.list-project .hover_on,
+	.list-project .hover_off {
+		height: 150px;
+		position: absolute;
+		width: 420px;
+	}
+
+	.list-project .hover_on {
+		display: none;
+	}
+
+		.list-project .hover_on h3 {
+		    color: #f87003;
+		    font-size: 30px;
+		    font-weight: bold;
+		    font-family: 'silkscreennormal', 'Myriad Pro', Arial, 'sans-serif';
+		    line-height: 30px;
+		    margin-top: 60px;
+		    text-align: center;
+		    text-transform: uppercase;
+		    text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+		}
+
+		.list-project .hover_on .studio {
+			color: #666;
+			font-family: 'silkscreenbold', 'Myriad Pro', Arial, 'sans-serif';
+			font-size: 17px;
+			text-align: center;
+			text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+			text-transform: uppercase;
+		}
+
+	.list-project:hover .hover_on {
+		display: block;
+	}
+
+	.list-project:hover .hover_off {
+		opacity: 0.1;
+	}
+
+/*---------------------------------------------------------------------
+[3. Full]
+*/
+
+#full-project {
+	margin-top: 10px;
+}
+
+#full-project #main #body {
+	overflow: hidden;
+}
+
+	#full-project #main #body .left {
+		float: left;
+		margin-right: 5px;
+	}
+
+	#full-project #main #body .right {
+		float: left;
+		margin-left: 5px;
+	}
+
+	#full-project #main #body #project-content {
+		overflow: hidden;
+	}
+
+		#full-project #main #body #project-content #image {
+			border: 1px solid #000000;
+			height: 200px;
+			width: 200px;
+		}
+
+		#full-project #main #body #project-content #description {
+			width: 350px;
+		}
+
+	#full-project #main #body #tags {
+		margin-top: 20px;
+		margin-bottom: 15px;
+		overflow: hidden;
+	}
+
+		#full-project #main #body #tags ul.tag {
+			cursor: default;
+			margin-top: 10px;
+			overflow: hidden;
+		}
+
+		#full-project #main #body #tags ul.tag.first {
+			margin-top: 0;
+		}
+
+			#full-project #main #body #tags ul.tag li.arrow {
+				float: left;
+				height: 23px;
+				margin-right: 10px;
+				margin-left: -1px;
+			}	
+
+			#full-project #main #body #tags ul.tag li.label,
+			#full-project #main #body #tags ul.tag li.value {
+				color: #FFFFFF;
+				float: left;
+				/*font-family: 'Myriad Pro', Arial, 'sans-serif';*/
+				font-size: 14px;
+				font-style: italic;
+                line-height: 16px;
+			}
+
+			#full-project #main #body #tags ul.tag li.label {
+				color: #fc8e2b;
+				font-weight: bold;
+				margin-right: 3px;
+			}
+
+			#full-project #main #body #tags ul.tag li.value {
+				/*margin-left: 5px;*/
+			}
+
+    			#full-project #main #body #tags ul.tag li.value a {
+                    text-decoration: underline;
+                }
+
+                #full-project #main #body #tags ul.tag li.value a:hover {
+                    text-decoration: none;
+                }
+
+	#full-project #main #body .share {
+		margin: 15px 0 5px;
+		text-align: center;
+	}
+
+		#full-project #main #body .share .btn-share {
+			display: inline-block;
+			height: 38px;
+			width: 38px;
+		}
+
+		#full-project #main #body .share .btn-share.twitter {
+			background: url('../../images/common/twitter.png');
+		}
+
+		#full-project #main #body .share .btn-share.facebook {
+			background: url('../../images/common/facebook.png');
+		}
+
+		#full-project #main #body .share .btn-share.mail {
+			background: url('../../images/common/mail.png');
+		}
+
+		#full-project #main #body .share .btn-share:hover {
+			background-position: 0 -38px;
+		}
+
+/*---------------------------------------------------------------------
+[4. Additional block]
+*/
+
+	#pictures {}
+
+		#pictures .pictures-list.row {
+			border-spacing: 3px;
+    		border-collapse: separate;
+			display: table;
+		}
+
+			#pictures .pictures-list.row li.picture {
+				background-color: #000;
+				border: 1px solid #afafaf;
+				cursor: pointer;
+				display: table-cell;
+				height: 90px;
+				vertical-align: middle;
+			}
+
+	#videos {}
+
+		#videos .videos-list.row {
+			border-spacing: 3px;
+			border-collapse: separate;
+			/*display: table;*/
+		}
+
+			#videos .videos-list.row li.video {
+				background-color: #000;
+				border: 1px solid #afafaf;
+				cursor: pointer;
+				/*display: table-cell;*/
+				display: inline-block;
+				height: 104px;
+				vertical-align: middle;
+			}

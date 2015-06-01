@@ -1,0 +1,438 @@
+<div id="footer" class="float-break">
+<div id="footer-design">
+    
+<a href="http://ez.no/ezpublish" title="eZ Publish Community Project 2012.6">eZ Publish</a> Copyright &copy; 1999-2012 <a href="http://ez.no/">eZ Systems AS</a> and others. For more information see <a href="/admin/ezinfo/about">ezinfo/about</a>.
+</div>
+</div>
+
+<div class="break"></div>
+
+<!-- script type="text/javascript" src="/design/admin2/javascript/popupmenu/ezpopupmenu.js"></script -->
+<!-- Treemenu icon click popup menu -->
+<script type="text/javascript">
+menuArray['ContextMenu'] = { 'depth': 0, 'headerID': 'menu-header' };
+menuArray['ContextMenu']['elements'] = {};
+//menuArray['ContextMenu']['elements']['menu-view'] = { 'url': "/admin/content/view/full/%nodeID%" };
+menuArray['ContextMenu']['elements']['menu-edit'] = { 'url': "/admin/content/edit/%objectID%" };
+menuArray['ContextMenu']['elements']['menu-copy'] = { 'url': "/admin/content/copy/%objectID%" };
+menuArray['ContextMenu']['elements']['menu-copy-subtree']= { 'url': "/admin/content/copysubtree/%nodeID%" };
+menuArray['ContextMenu']['elements']['menu-create-here']= { 'disabled_class': 'menu-item-disabled' };
+
+</script>
+
+<div class="popupmenu" id="ContextMenu">
+    <div class="popupmenuheader"><h3 id="menu-header">XXX</h3>
+        <div class="break"></div>
+    </div>
+    <!-- a id="menu-view" href="#" onmouseover="ezpopmenu_mouseOver( 'ContextMenu' )">Voir</a -->    <a id="menu-edit" href="#" onmouseover="ezpopmenu_mouseOver( 'ContextMenu' )">Modifier</a>    <hr />
+    <a id="menu-copy" href="#" onmouseover="ezpopmenu_mouseOver( 'ContextMenu' )">Copier</a>
+    <a id="menu-copy-subtree" href="#" onmouseover="ezpopmenu_mouseOver( 'ContextMenu' )">Copier la sous arborescence</a>
+    <a id="menu-move" href="#" onmouseover="ezpopmenu_mouseOver( 'ContextMenu' )" onclick="ezpopmenu_submitForm( 'menu-form-move' ); return false;">Déplacer</a>
+    <a id="menu-remove" href="#" onmouseover="ezpopmenu_mouseOver( 'ContextMenu' )" onclick="ezpopmenu_submitForm( 'menu-form-remove' ); return false;">Supprimer</a>
+    <a id="menu-advanced" class="more" href="#" onmouseover="ezpopmenu_showSubLevel( event, 'Advanced', 'menu-advanced' ); return false;">Avancé</a>
+    <hr />
+    <a id="menu-bookmark" href="#" onmouseover="ezpopmenu_mouseOver( 'ContextMenu' )"
+       onclick="ezpopmenu_submitForm( 'menu-form-addbookmark' ); return false;">Ajouter à mes signets</a>
+    <a id="menu-notify" href="#" onmouseover="ezpopmenu_mouseOver( 'ContextMenu' )"
+       onclick="ezpopmenu_submitForm( 'menu-form-notify' ); return false;">Ajouter à mes notifications</a>
+
+    <a id="menu-create-here" class="more" href="#" onmouseover="ezpopmenu_showSubLevel( event, 'CreateHereMenu', 'menu-create-here' ); return false;">Créer ici</a>
+
+    
+            <script type="text/javascript">
+menuArray['OpenOffice'] = [];
+menuArray['OpenOffice']['depth'] = 1;
+menuArray['OpenOffice']['elements'] = [];
+</script>
+
+<hr />
+<a id="menu-openoffice" class="more" href="#" onmouseover="ezpopmenu_showSubLevel( event, 'OpenOffice', 'menu-openoffice' ); return false;">OpenOffice.org</a>
+
+
+<form id="menu-form-export-ooo" method="post" action="/admin/ezodf/export">
+  <input type="hidden" name="NodeID" value="%nodeID%" />
+  <input type="hidden" name="ObjectID" value="%objectID%" />
+  <input type="hidden" name="CurrentURL" value="%currentURL%" />
+</form>
+
+
+<form id="menu-form-export-pdf" method="post" action="/admin/ezodf/export">
+  <input type="hidden" name="ExportType" value="PDF" />
+  <input type="hidden" name="NodeID" value="%nodeID%" />
+  <input type="hidden" name="ObjectID" value="%objectID%" />
+  <input type="hidden" name="CurrentURL" value="%currentURL%" />
+</form>
+
+
+<form id="menu-form-export-word" method="post" action="/admin/ezodf/export">
+  <input type="hidden" name="ExportType" value="Word" />
+  <input type="hidden" name="NodeID" value="%nodeID%" />
+  <input type="hidden" name="ObjectID" value="%objectID%" />
+  <input type="hidden" name="CurrentURL" value="%currentURL%" />
+</form>
+
+
+<form id="menu-form-import-ooo" method="post" action="/admin/ezodf/import">
+  <input type="hidden" name="NodeID" value="%nodeID%" />
+  <input type="hidden" name="ObjectID" value="%objectID%" />
+  <input type="hidden" name="CurrentURL" value="%currentURL%" />
+</form>
+
+
+
+<form id="menu-form-replace-ooo" method="post" action="/admin/ezodf/import">
+  <input type="hidden" name="ImportType" value="replace" />
+  <input type="hidden" name="NodeID" value="%nodeID%" />
+  <input type="hidden" name="ObjectID" value="%objectID%" />
+  <input type="hidden" name="CurrentURL" value="%currentURL%" />
+</form>
+            
+<hr/>
+<script type="text/javascript">
+menuArray['ContextMenu']['elements']['menu-multiupload'] = new Array();
+menuArray['ContextMenu']['elements']['menu-multiupload']['url'] = "/admin/ezmultiupload/upload/%nodeID%";
+</script>
+
+<a id="menu-multiupload" href="#" onmouseover="ezpopmenu_mouseOver( 'ContextMenu' )" >Envoyer plusieurs fichiers</a>    </div><!-- Subitems icon click popup menu -->
+<script type="text/javascript">
+menuArray['SubitemsContextMenu'] = { 'depth': 0, 'headerID': 'child-menu-header' };
+menuArray['SubitemsContextMenu']['elements'] = {};
+//menuArray['SubitemsContextMenu']['elements']['child-menu-view'] = { 'url': "/admin/content/view/full/%nodeID%" };
+menuArray['SubitemsContextMenu']['elements']['child-menu-preview'] = { 'url': "/admin/content/versionview/%objectID%/%version%" };
+menuArray['SubitemsContextMenu']['elements']['child-menu-edit'] = { 'url': "/admin/content/edit/%objectID%" };
+menuArray['SubitemsContextMenu']['elements']['child-menu-copy'] = { 'url': "/admin/content/copy/%objectID%" };
+menuArray['SubitemsContextMenu']['elements']['child-menu-copy-subtree'] = { 'url': "/admin/content/copysubtree/%nodeID%" };
+menuArray['SubitemsContextMenu']['elements']['child-menu-create-here'] = { 'disabled_class': 'menu-item-disabled' };
+</script>
+
+<div class="popupmenu" id="SubitemsContextMenu">
+    <div class="popupmenuheader"><h3 id="child-menu-header">XXX</h3>
+
+        <div class="break"></div>
+    </div>
+
+    <a id="child-menu-preview" href="#" onmouseover="ezpopmenu_mouseOver( 'SubitemsContextMenu' )">Prévisualisation</a>    <a id="child-menu-edit" href="#" onmouseover="ezpopmenu_mouseOver( 'SubitemsContextMenu' )">Modifier</a>    <hr />
+    <a id="child-menu-copy" href="#" onmouseover="ezpopmenu_mouseOver( 'SubitemsContextMenu' )">Copier</a>
+    <a id="child-menu-copy-subtree" href="#" onmouseover="ezpopmenu_mouseOver( 'SubitemsContextMenu' )">Copier la sous arborescence</a>
+    <a id="child-menu-move" href="#" onmouseover="ezpopmenu_mouseOver( 'SubitemsContextMenu' )"
+       onclick="ezpopmenu_submitForm( 'menu-form-move' ); return false;">Déplacer</a>
+    <a id="child-menu-remove" href="#" onmouseover="ezpopmenu_mouseOver( 'SubitemsContextMenu' )"
+       onclick="ezpopmenu_submitForm( 'menu-form-remove' ); return false;">Supprimer</a>
+    <a id="child-menu-advanced" class="more" href="#" onmouseover="ezpopmenu_showSubLevel( event, 'Advanced', 'child-menu-advanced' ); return false;">Avancé</a>
+    <hr />
+    <a id="child-menu-bookmark" href="#" onmouseover="ezpopmenu_mouseOver( 'SubitemsContextMenu' )"
+       onclick="ezpopmenu_submitForm( 'menu-form-addbookmark' ); return false;">Ajouter à mes signets</a>
+    <a id="child-menu-notify" href="#" onmouseover="ezpopmenu_mouseOver( 'SubitemsContextMenu' )"
+       onclick="ezpopmenu_submitForm( 'menu-form-notify' ); return false;">Ajouter à mes notifications</a>
+
+    <a id="child-menu-create-here" class="more" href="#" onmouseover="ezpopmenu_showSubLevel( event, 'CreateHereMenu', 'child-menu-create-here' ); return false;">Créer ici</a>
+
+    
+            <script type="text/javascript">
+menuArray['OpenOffice'] = [];
+menuArray['OpenOffice']['depth'] = 1;
+menuArray['OpenOffice']['elements'] = [];
+</script>
+
+<hr />
+<a id="child-menu-openoffice" class="more" href="#" onmouseover="ezpopmenu_showSubLevel( event, 'OpenOffice', 'child-menu-openoffice' ); return false;">OpenOffice.org</a>
+
+            
+<hr/>
+<script type="text/javascript">
+menuArray['SubitemsContextMenu']['elements']['child-menu-multiupload'] = new Array();
+menuArray['SubitemsContextMenu']['elements']['child-menu-multiupload']['url'] = "/admin/ezmultiupload/upload/%nodeID%";
+</script>
+
+<a id="child-menu-multiupload" href="#" onmouseover="ezpopmenu_mouseOver( 'ContextMenu' )" >Envoyer plusieurs fichiers</a>
+    </div><!-- Class popup menu -->
+<script type="text/javascript">
+menuArray['ClassMenu'] = { 'depth': 0, 'headerID': 'class-header' };
+menuArray['ClassMenu']['elements'] = {};
+menuArray['ClassMenu']['elements']['class-view'] = { 'url': "/admin/class/view/%classID%" };
+menuArray['ClassMenu']['elements']['class-edit'] = { 'url': "/admin/class/edit/%classID%" };
+menuArray['ClassMenu']['elements']['view-cache-delete'] = { 'url': "/admin/%currentURL%" };
+menuArray['ClassMenu']['elements']['recursive-view-cache-delete'] = { 'url': "/admin/%currentURL%" };
+menuArray['ClassMenu']['elements']['class-createnodefeed'] = { 'url': "/admin/content/view/full/%nodeID%" };
+menuArray['ClassMenu']['elements']['class-createnodefeed']['disabled_class'] = 'menu-item-disabled';
+menuArray['ClassMenu']['elements']['class-createnodefeed']['disabled_for'] = { 'class-createnodefeed': 'yes' };
+menuArray['ClassMenu']['elements']['class-removenodefeed'] = { 'url': "/admin/content/view/full/%nodeID%" };
+menuArray['ClassMenu']['elements']['class-removenodefeed']['disabled_class'] = 'menu-item-disabled';
+menuArray['ClassMenu']['elements']['class-removenodefeed']['disabled_for'] = { 'class-removenodefeed': 'yes' };
+menuArray['ClassMenu']['elements']['class-history'] = { 'url': "/admin/content/history/%objectID%" };
+menuArray['ClassMenu']['elements']['url-alias'] = { 'url': "/admin/content/urlalias/%nodeID%" };
+</script>
+
+<div class="popupmenu" id="ClassMenu">
+    <div class="popupmenuheader"><h3 id="class-header">XXX</h3>
+
+        <div class="break"></div>
+    </div>
+    <a id="class-view" href="#" onmouseover="ezpopmenu_mouseOver( 'ClassMenu' )">Voir la classe</a>    <a id="class-edit" href="#" onmouseover="ezpopmenu_mouseOver( 'ClassMenu' )">Modifier la classe</a>
+    <hr />
+    <a id="view-cache-delete" href="#" onmouseover="ezpopmenu_mouseOver( 'ClassMenu' )" onclick="ezpopmenu_submitForm( 'menu-form-view-cache-delete' ); return false;">Supprimer le cache de visualisation</a>
+<!--
+    <a id="template-cache-delete" href="#" onmouseover="ezpopmenu_mouseOver( 'ClassMenu' )">Supprimer le cache des modèles</a>
+-->
+    <a id="recursive-view-cache-delete" href="#" onmouseover="ezpopmenu_mouseOver( 'ClassMenu' )" onclick="ezpopmenu_submitForm( 'menu-form-recursive-view-cache-delete' ); return false;">Supprimer le cache de visualisation à partir d'ici</a>
+    <hr />
+    <a id="class-createnodefeed" href="#" onmouseover="ezpopmenu_mouseOver( 'ClassMenu' )"
+       onclick="ezpopmenu_submitForm( 'menu-form-createnodefeed' ); return false;">Créer un flux RSS/ATOM</a>
+    <a id="class-removenodefeed" href="#" onmouseover="ezpopmenu_mouseOver( 'ClassMenu' )"
+       onclick="ezpopmenu_submitForm( 'menu-form-removenodefeed' ); return false;">Supprimer un flux RSS/ATOM</a>
+    <hr />
+    <a id="override-view" class="more" href="#" onmouseover="ezpopmenu_hide('OverrideByClassSiteAccess'); ezpopmenu_hide('OverrideByNodeSiteAccess'); ezpopmenu_showSubLevel( event, 'OverrideSiteAccess', 'override-view' ); return false;">Surcharges de modèles</a>
+    <a id="override-by-class-view" class="more" href="#" onmouseover="ezpopmenu_hide('OverrideSiteAccess'); ezpopmenu_hide('OverrideByNodeSiteAccess'); ezpopmenu_showSubLevel( event, 'OverrideByClassSiteAccess', 'override-by-class-view' ); return false;">Nouvelle surcharge de classe</a>
+    <a id="override-by-node-view" class="more" href="#" onmouseover="ezpopmenu_hide('OverrideSiteAccess'); ezpopmenu_hide('OverrideByClassSiteAccess'); ezpopmenu_showSubLevel( event, 'OverrideByNodeSiteAccess', 'override-by-node-view' ); return false;">Nouvelle surcharge de nœud</a>
+    <hr />
+    <a id="class-history" href="#" onmouseover="ezpopmenu_mouseOver( 'ClassMenu' )">Gérer les versions</a>
+    <a id="url-alias" href="#" onmouseover="ezpopmenu_mouseOver( 'ClassMenu' )">Gérer les alias d'URL</a>
+    
+    
+    </div>
+
+
+<form id="menu-form-createnodefeed" method="post" action="/admin/content/action">
+  <input type="hidden" name="ContentObjectID" value="%objectID%" />
+  <input type="hidden" name="NodeID" value="%nodeID%" />
+  <input type="hidden" name="CreateNodeFeed" value="x" />
+</form>
+
+
+<form id="menu-form-removenodefeed" method="post" action="/admin/content/action">
+  <input type="hidden" name="ContentObjectID" value="%objectID%" />
+  <input type="hidden" name="NodeID" value="%nodeID%" />
+  <input type="hidden" name="RemoveNodeFeed" value="x" />
+</form>
+
+
+<form id="menu-form-view-cache-delete" method="post" action="/admin/content/action">
+  <input type="hidden" name="NodeID" value="%nodeID%" />
+  <input type="hidden" name="ObjectID" value="%objectID%" />
+  <input type="hidden" name="CurrentURL" value="%currentURL%" />
+  <input type="hidden" name="ClearViewCacheButton" value="x" />
+</form>
+
+
+<form id="menu-form-recursive-view-cache-delete" method="post" action="/admin/content/action">
+  <input type="hidden" name="NodeID" value="%nodeID%" />
+  <input type="hidden" name="ObjectID" value="%objectID%" />
+  <input type="hidden" name="CurrentURL" value="%currentURL%" />
+  <input type="hidden" name="ClearViewCacheSubtreeButton" value="x" />
+</form><!-- Bookmark popup menu -->
+<script type="text/javascript">
+menuArray['BookmarkMenu'] = { 'depth': 0, 'headerID': 'bookmark-header' };
+menuArray['BookmarkMenu']['elements'] = {};
+menuArray['BookmarkMenu']['elements']['bookmark-view'] = { 'url': "/admin/content/view/full/%nodeID%" };
+menuArray['BookmarkMenu']['elements']['bookmark-edit'] = { 'url': "/admin/content/edit/%objectID%" };
+</script>
+
+<div class="popupmenu" id="BookmarkMenu">
+    <div class="popupmenuheader"><h3 id="bookmark-header">XXX</h3>
+
+        <div class="break"></div>
+    </div>
+    <a id="bookmark-view" href="#" onmouseover="ezpopmenu_mouseOver( 'BookmarkMenu' )">Voir</a>    <a id="bookmark-edit" href="#" onmouseover="ezpopmenu_mouseOver( 'BookmarkMenu' )">Modifier</a>    <hr />
+    <a id="bookmark-remove" href="#" onmouseover="ezpopmenu_mouseOver( 'BookmarkMenu' )"
+        onclick="ezpopmenu_submitForm( 'menu-form-removebookmark' ); return false;">Supprimer le signet</a>
+
+    
+    </div>
+
+
+<form id="menu-form-removebookmark" method="post" action="/admin/content/bookmark">
+  <input type="hidden" name="DeleteIDArray[]" value="%bookmarkID%" />
+  <input type="hidden" name="RemoveButton" value="x" />
+  <input type="hidden" name="NeedRedirectBack" value="x" />
+</form>
+   
+<script type="text/javascript">
+menuArray['TagMenu'] = { 'depth': 0, 'headerID': 'tag-header' };
+menuArray['TagMenu']['elements'] = {};    menuArray['TagMenu']['elements']['add-child-tag'] = { 'url': "/admin/tags/add/%tagID%" };    menuArray['TagMenu']['elements']['edit-tag'] = { 'url': "/admin/tags/edit/%tagID%" };    menuArray['TagMenu']['elements']['delete-tag'] = { 'url': "/admin/tags/delete/%tagID%" };    menuArray['TagMenu']['elements']['merge-tag'] = { 'url': "/admin/tags/merge/%tagID%" };    menuArray['TagMenu']['elements']['add-synonym-tag'] = { 'url': "/admin/tags/addsynonym/%tagID%" };    menuArray['TagMenu']['elements']['make-synonym-tag'] = { 'url': "/admin/tags/makesynonym/%tagID%" };    menuArray['TagMenuSimple'] = { 'depth': 0, 'headerID': 'tag-simple-header' };
+    menuArray['TagMenuSimple']['elements'] = {};
+    menuArray['TagMenuSimple']['elements']['add-child-tag-simple'] = { 'url': "/admin/tags/add/%tagID%" };</script>
+<div class="popupmenu" id="TagMenu">
+    <div class="popupmenuheader"><h3 id="tag-header">XXX</h3>
+        <div class="break"></div>
+    </div>
+            <a id="add-child-tag" href="#" onmouseover="ezpopmenu_mouseOver( 'TagMenu' )">Créer un mot clé enfant</a>
+                <a id="edit-tag" href="#" onmouseover="ezpopmenu_mouseOver( 'TagMenu' )">Modifier le mot clé</a>
+                <a id="delete-tag" href="#" onmouseover="ezpopmenu_mouseOver( 'TagMenu' )">Supprimer le mot clé</a>
+                <a id="merge-tag" href="#" onmouseover="ezpopmenu_mouseOver( 'TagMenu' )">Fusionner le mot clé</a>
+        <hr />
+            <a id="add-synonym-tag" href="#" onmouseover="ezpopmenu_mouseOver( 'TagMenu' )">Ajouter un synonyme</a>
+                <a id="make-synonym-tag" href="#" onmouseover="ezpopmenu_mouseOver( 'TagMenu' )">Convertir en synonyme</a>
+    </div>
+    <div class="popupmenu" id="TagMenuSimple">
+        <div class="popupmenuheader"><h3 id="tag-simple-header">XXX</h3>
+            <div class="break"></div>
+        </div>
+        <a id="add-child-tag-simple" href="#" onmouseover="ezpopmenu_mouseOver( 'TagMenuSimple' )">Créer un mot clé enfant</a>
+    </div>   <div class="popupmenu" id="OpenOffice">
+    <a id="menu-export-ooo" href="#" onmouseover="ezpopmenu_mouseOver( 'OpenOffice' )"
+       onclick="ezpopmenu_submitForm( 'menu-form-export-ooo' ); return false;">Export OpenOffice</a>
+    <a id="menu-export-pdf" href="#" onmouseover="ezpopmenu_mouseOver( 'OpenOffice' )"
+       onclick="ezpopmenu_submitForm( 'menu-form-export-pdf' ); return false;">Export PDF</a>
+    <a id="menu-export-word" href="#" onmouseover="ezpopmenu_mouseOver( 'OpenOffice' )"
+       onclick="ezpopmenu_submitForm( 'menu-form-export-word' ); return false;">Export Word</a>
+    <a id="menu-import-ooo" href="#" onmouseover="ezpopmenu_mouseOver( 'OpenOffice' )"
+       onclick="ezpopmenu_submitForm( 'menu-form-import-ooo' ); return false;">Import OpenOffice</a>
+    <a id="menu-replace-ooo" href="#" onmouseover="ezpopmenu_mouseOver( 'OpenOffice' )"
+       onclick="ezpopmenu_submitForm( 'menu-form-replace-ooo' ); return false;">Remplacer OpenOffice</a>
+</div>
+<!-- Create here menu -->
+<script type="text/javascript">
+menuArray['CreateHereMenu'] = { 'depth': 1 };
+menuArray['CreateHereMenu']['elements'] = {};
+menuArray['CreateHereMenu']['elements']['menu-classes'] = { 'variable': '%classList%' };
+menuArray['CreateHereMenu']['elements']['menu-classes']['content'] = '<a id="menu-item-create-here" href="#" onclick="ezpopmenu_submitForm( \'menu-form-create-here\', new Array( \'classID\', \'%classID%\' ) ); return false;">%name%<\/a>';
+</script>
+
+<div class="popupmenu" id="CreateHereMenu">
+    <div id="menu-classes"></div>
+</div>
+
+
+<form id="menu-form-create-here" method="post" action="/admin/content/action">
+  <input type="hidden" name="NewButton" value="x" />
+  <input type="hidden" name="ContentNodeID" value="%nodeID%" />
+  <input type="hidden" name="NodeID" value="%nodeID%" />
+  <input type="hidden" name="ContentObjectID" value="%objectID%" />
+  <input type="hidden" name="ClassID" value="%classID%" />
+  <input type="hidden" name="ViewMode" value="full" />
+  
+</form><!-- Edit menu -->
+<script type="text/javascript">
+menuArray['EditSubmenu'] = { 'depth': 1 };
+menuArray['EditSubmenu']['elements'] = {};
+menuArray['EditSubmenu']['elements']['edit-languages'] = { 'variable': '%languages%' };
+menuArray['EditSubmenu']['elements']['edit-languages']['content'] = '<a href="/admin/content/edit/%objectID%/f/%locale%" onmouseover="ezpopmenu_mouseOver( \'EditSubmenu\' )">%name%<\/a>';
+menuArray['EditSubmenu']['elements']['edit-languages-another'] = { 'url': "/admin/content/edit/%objectID%/a" };
+</script>
+
+<div class="popupmenu" id="EditSubmenu">
+    <div id="edit-languages"></div>
+    <hr />
+    <a id="edit-languages-another" href="#" onmouseover="ezpopmenu_mouseOver( 'EditSubmenu' )">Nouvelle traduction</a>
+</div><!-- Advanced menu -->
+<script type="text/javascript">
+menuArray['Advanced'] = { 'depth': 1 };
+menuArray['Advanced']['elements'] = {};
+menuArray['Advanced']['elements']['menu-hide'] = { 'url': "/admin/content/hide/%nodeID%" };
+menuArray['Advanced']['elements']['menu-list'] = { 'url': "/admin/content/view/sitemap/%nodeID%" };
+menuArray['Advanced']['elements']['reverse-related'] = { 'url': "/admin/content/reverserelatedlist/%nodeID%" };
+menuArray['Advanced']['elements']['menu-history'] = { 'url': "/admin/content/history/%objectID%" };
+menuArray['Advanced']['elements']['menu-url-alias'] = { 'url': "/admin/content/urlalias/%nodeID%" };
+</script>
+
+<div class="popupmenu" id="Advanced">
+    <a id="menu-swap" href="#" onmouseover="ezpopmenu_mouseOver( 'Advanced' )" onclick="ezpopmenu_submitForm( 'menu-form-swap' ); return false;">Échanger avec un autre nœud</a>
+    <a id="menu-hide" href="#" onmouseover="ezpopmenu_mouseOver( 'Advanced' )">Cacher / rendre visible</a>
+    <hr />
+    <a id="menu-list" href="#" onmouseover="ezpopmenu_mouseOver( 'Advanced' )">Plan de la sous-arborescence</a>
+    <a id="reverse-related" href="#" onmouseover="ezpopmenu_mouseOver( 'Advanced' )">Objets associés par relation inverse pour la sous arborescence</a>
+    <hr />
+    <a id="menu-history" href="#" onmouseover="ezpopmenu_mouseOver( 'Advanced' )">Gérer les versions</a>
+    <a id="menu-url-alias" href="#" onmouseover="ezpopmenu_mouseOver( 'Advanced' )">Gérer les alias d'URL</a>
+
+    
+    </div>
+
+
+<form id="menu-form-swap" method="post" action="/admin/content/action">
+  <input type="hidden" name="TopLevelNode" value="%nodeID%" />
+  <input type="hidden" name="ContentNodeID" value="%nodeID%" />
+  <input type="hidden" name="ContentObjectID" value="%objectID%" />
+  <input type="hidden" name="SwapNodeButton" value="x" />
+</form><!-- Edit class submenu -->
+<script type="text/javascript">
+menuArray['EditClassSubmenu'] = { 'depth': 1 };
+menuArray['EditClassSubmenu']['elements'] = {};
+menuArray['EditClassSubmenu']['elements']['edit-class-languages'] = { 'variable': '%languages%' };
+menuArray['EditClassSubmenu']['elements']['edit-class-languages']['content'] = '<a href="/admin/class/edit/%classID%/(language)/%locale%" onmouseover="ezpopmenu_mouseOver( \'EditClassSubmenu\' )">%name%<\/a>';
+menuArray['EditClassSubmenu']['elements']['edit-class-another-language'] = { 'url': "/admin/class/edit/%classID%" };
+menuArray['EditClassSubmenu']['elements']['edit-class-another-language']['disabled_class'] = 'menu-item-disabled';
+</script>
+
+<div class="popupmenu" id="EditClassSubmenu">
+    <div id="edit-class-languages"></div>
+    <hr />
+    <!-- <a id="edit-class-another-language" href="#" onmouseover="ezpopmenu_mouseOver( 'EditClassSubmenu' )">Autre langue</a> -->
+    <!-- <div id="edit-class-another-language"></div> -->
+    <a id="edit-class-another-language" href="#" onmouseover="ezpopmenu_mouseOver( 'EditClassSubmenu' )">Nouvelle traduction</a>
+</div>
+<!-- Site access for override popup menu -->
+<script type="text/javascript">
+menuArray['OverrideSiteAccess'] = { 'depth': 1 };
+</script>
+
+<div class="popupmenu" id="OverrideSiteAccess">
+    <div class="popupmenuheader"><h3 class="override-site-access-menu-header">Choisir un siteaccess</h3>
+        <div class="break"></div>
+    </div>
+
+                        <a id="menu-override-siteAccess-fr" onclick='ezpopmenu_hideAll(); ezpopup_SubstituteAndRedirect("/admin/visual/templatecreate/node/view/full.tpl/(siteAccess)/fr"); return true;' onmouseover="ezpopmenu_mouseOver( 'OverrideSiteAccess' )">fr</a>
+                                <a id="menu-override-siteAccess-admin" onclick='ezpopmenu_hideAll(); ezpopup_SubstituteAndRedirect("/admin/visual/templatecreate/node/view/full.tpl/(siteAccess)/admin"); return true;' onmouseover="ezpopmenu_mouseOver( 'OverrideSiteAccess' )">admin</a>
+            </div>
+
+
+
+<!-- Site access for override by class popup menu -->
+<script type="text/javascript">
+menuArray['OverrideByClassSiteAccess'] = { 'depth': 1 };
+</script>
+<div class="popupmenu" id="OverrideByClassSiteAccess">
+    <div class="popupmenuheader"><h3 class="override-site-access-menu-header">Choisir un siteaccess</h3>
+        <div class="break"></div>
+    </div>
+
+                        <a id="menu-override-by-class-siteAccess-fr" onclick='ezpopmenu_hideAll(); ezpopup_SubstituteAndRedirect("/admin/visual/templatecreate/node/view/full.tpl/(siteAccess)/fr/(classID)/%classID%"); return true;' onmouseover="ezpopmenu_mouseOver( 'OverrideByClassSiteAccess' )">fr</a>
+                                <a id="menu-override-by-class-siteAccess-admin" onclick='ezpopmenu_hideAll(); ezpopup_SubstituteAndRedirect("/admin/visual/templatecreate/node/view/full.tpl/(siteAccess)/admin/(classID)/%classID%"); return true;' onmouseover="ezpopmenu_mouseOver( 'OverrideByClassSiteAccess' )">admin</a>
+            
+</div>
+
+
+
+<!-- Site access for override by node popup menu -->
+<script type="text/javascript">
+menuArray['OverrideByNodeSiteAccess'] = { 'depth': 1 };
+</script>
+<div class="popupmenu" id="OverrideByNodeSiteAccess">
+    <div class="popupmenuheader"><h3 class="override-site-access-menu-header">Choisir un siteaccess</h3>
+        <div class="break"></div>
+    </div>
+
+                        <a id="menu-override-by-node-siteAccess-fr" onclick='ezpopmenu_hideAll(); ezpopup_SubstituteAndRedirect("/admin/visual/templatecreate/node/view/full.tpl/(siteAccess)/fr/(nodeID)/%nodeID%"); return true;' onmouseover="ezpopmenu_mouseOver( 'OverrideByNodeSiteAccess' )">fr</a>
+                                <a id="menu-override-by-node-siteAccess-admin" onclick='ezpopmenu_hideAll(); ezpopup_SubstituteAndRedirect("/admin/visual/templatecreate/node/view/full.tpl/(siteAccess)/admin/(nodeID)/%nodeID%"); return true;' onmouseover="ezpopmenu_mouseOver( 'OverrideByNodeSiteAccess' )">admin</a>
+            </div>
+
+
+
+
+
+<form id="menu-form-addbookmark" method="post" action="/admin/content/action">
+  <input type="hidden" name="ContentNodeID" value="%nodeID%" />
+  <input type="hidden" name="ActionAddToBookmarks" value="x" />
+</form>
+
+
+<form id="menu-form-remove" method="post" action="/admin/content/action">
+  <input type="hidden" name="TopLevelNode" value="%nodeID%" />
+  <input type="hidden" name="ContentNodeID" value="%nodeID%" />
+  <input type="hidden" name="ContentObjectID" value="%objectID%" />
+  <input type="hidden" name="ActionRemove" value="x" />
+</form>
+
+
+<form id="menu-form-move" method="post" action="/admin/content/action">
+  <input type="hidden" name="TopLevelNode" value="%nodeID%" />
+  <input type="hidden" name="ContentNodeID" value="%nodeID%" />
+  <input type="hidden" name="ContentObjectID" value="%objectID%" />
+  <input type="hidden" name="MoveNodeButton" value="x" />
+</form>
+
+
+<form id="menu-form-notify" method="post" action="/admin/content/action">
+  <input type="hidden" name="ContentNodeID" value="%nodeID%" />
+  <input type="hidden" name="ActionAddToNotification" value="x" />
+</form>

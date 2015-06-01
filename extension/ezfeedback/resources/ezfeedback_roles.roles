@@ -1,0 +1,65 @@
+---
+- 
+  name: export_feedback
+  policies: 
+    - 
+      module: feedback
+      function: export
+- 
+  name: create_feedback_homepage
+  policies: 
+    - 
+      module: content
+      function: create
+      limitation: 
+        Class: 
+          - contact_form
+        ParentClass: 
+          - homepage
+- 
+  name: create_object_contact
+  policies: 
+    - 
+      module: content
+      function: create
+      limitation: 
+        Class: 
+          - object_contact
+        ParentClass: 
+          - contact_form
+- 
+  name: edit_feedback
+  policies: 
+    - 
+      module: content
+      function: edit
+      limitation: 
+        Class: 
+          - contact_form
+- 
+  name: edit_object_contact
+  policies: 
+    - 
+      module: content
+      function: edit
+      limitation: 
+        Class: 
+          - object_contact
+- 
+  name: remove_object_contact
+  policies: 
+    - 
+      module: content
+      function: remove
+      limitation: 
+        Class: 
+          - object_contact
+- 
+  name: remove_feedback
+  policies: 
+    - 
+      module: content
+      function: remove
+      limitation: 
+        Class: 
+          - contact_form

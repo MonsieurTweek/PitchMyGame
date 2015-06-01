@@ -1,0 +1,24 @@
+a:10:{s:7:"content";s:660:"
+<div id="full-events_container">
+	<div id="result-block" class="block">
+
+		<input type="hidden" value="8" id="data-current-limit" />
+		<input type="hidden" value="0" id="data-current-offset" />
+		<input type="hidden" value="10" id="data-current-max" />
+
+		<div class="full title">
+			<h2>Les editions precedentes</h2>
+		</div>
+		<div class="outside">
+			<div class="inside">
+				<div class="content"></div>
+			</div>
+							<div class="pager">
+					<a href="#" class="arrow prev"></a>
+					<span class="page">1</span><span class="separator">/</span><span class="nb_page">1</span>
+					<a href="#" class="arrow next"></a>
+				</div>
+					</div>
+	</div>
+</div>
+";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:2:{i:0;a:4:{s:4:"text";s:13:"Pitch My Game";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:8:"Editions";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:2:"63";}}s:10:"title_path";a:2:{i:0;a:4:{s:4:"text";s:13:"Pitch My Game";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:3:{s:4:"text";s:8:"Editions";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:2:"63";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:24:{s:9:"object_id";s:2:"61";s:7:"node_id";s:2:"63";s:14:"parent_node_id";s:1:"2";s:8:"class_id";s:2:"22";s:16:"class_identifier";s:16:"events_container";s:9:"remote_id";s:32:"10415d9988c878335455f6e036a79b43";s:14:"node_remote_id";s:32:"3717cd3a60cbf1d60e41cf01494cdd3e";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"2";s:9:"url_alias";s:8:"editions";s:16:"current_language";s:6:"fre-FR";s:13:"language_mask";s:1:"2";s:12:"main_node_id";s:2:"63";s:19:"main_node_url_alias";b:0;s:19:"persistent_variable";b:0;s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:15:"parent_class_id";s:2:"16";s:23:"parent_class_identifier";s:8:"homepage";s:21:"parent_node_remote_id";s:32:"f3e90596361e31d496d4026eb624c983";s:23:"parent_object_remote_id";s:32:"b433319616a3d244439665362773ba6b";}s:13:"template_list";a:1:{i:0;s:69:"extension/pmg/design/pmg/override/templates/full/events_container.tpl";}s:9:"cache_ttl";i:-1;}

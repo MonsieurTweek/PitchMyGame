@@ -1,0 +1,98 @@
+/*-----------------------------------------------------------------------------
+  [CSS - feedback]
+  Feuille de style pour la page de contact
+
+  0. General
+  1. Full
+
+-----------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------
+[0. General]
+*/
+
+
+/*---------------------------------------------------------------------
+[1. Full]
+*/
+#full-contact_form #body.block {
+	padding: 20px 36px;
+}
+
+	#full-contact_form #body.block .intro {
+		margin-bottom: 28px;
+	}
+
+		#full-contact_form #body.block .intro p {
+			/*font-family: 'Myriad Pro', Arial, 'sans-serif';*/
+			font-size: 22px;
+			line-height: 30px;
+		}
+
+	#full-contact_form #body.block form.contact_form {
+		overflow: hidden;
+	}
+
+		#full-contact_form #body.block form.contact_form fieldset.left {
+			float: left;
+			width: 60%;
+		}
+
+			#full-contact_form #body.block form.contact_form .input-block {
+				margin-bottom: 15px;
+			}
+
+				#full-contact_form #body.block form.contact_form .input-block label {
+					display: inline-block;
+					/*font-family: 'Myriad Pro', Arial, 'sans-serif';*/
+					font-size: 18px;
+					padding: 2px 0;
+					width: 250px;
+				}
+
+				#full-contact_form #body.block form.contact_form .input-block input,
+				#full-contact_form #body.block form.contact_form .input-block select {
+					-moz-box-shadow: inset 1px 1px 4px 0 #000;
+					-webkit-box-shadow: inset 1px 1px 4px 0 #000;
+					-o-box-shadow: inset 1px 1px 4px 0 #000;
+					box-shadow: inset 1px 1px 4px 0 #000;
+					border: none;
+					padding: 3px 9px;
+				}
+
+				#full-contact_form #body.block form.contact_form .input-block input {
+					width: 200px;
+				}
+
+				#full-contact_form #body.block form.contact_form .input-block select {
+					width: 218px;
+				}
+
+				#full-contact_form #body.block form.contact_form .input-block textarea {
+					padding: 5px;
+				}
+
+			#full-contact_form #body.block form.contact_form .infos {
+				margin-bottom: 10px;
+			}
+
+		#full-contact_form #body.block form.contact_form fieldset.right {
+			float: right;
+			text-align: center;
+			width: 35%;
+		}
+
+			#full-contact_form #body.block form.contact_form #send {
+				border: none;
+				color: #000000;
+				cursor: pointer;
+				margin-top: 220px;
+				padding: 15px 40px;
+			}
+
+	#full-contact_form #body.block hr {
+		border-top: 1px solid #191919;
+		border-right: none;
+		border-bottom: 1px solid #717171;
+		border-left: none;
+	}

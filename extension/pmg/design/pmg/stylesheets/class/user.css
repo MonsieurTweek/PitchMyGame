@@ -1,0 +1,83 @@
+/*-----------------------------------------------------------------------------
+  [CSS - user]
+  Feuille de style pour la classe user
+
+  0. General
+  1. List
+  
+-----------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------
+[0. General]
+*/
+
+
+/*---------------------------------------------------------------------
+[1. List]
+*/
+.list-user {
+    background: url('../../images/common/bg-grey.png') repeat-y transparent;
+    -webkit-box-shadow: 0 -1px 4px 0 #000000;
+    -o-box-shadow: 0 -1px 4px 0 #000000;
+    box-shadow: 0 -1px 4px 0 #000000;
+    clear: both;
+    height: 152px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    padding: 15px 25px;
+    width: 800px;
+}
+
+
+    .list-user .left,
+    .list-user .right {
+        display: inline-block;
+        float: left;
+    }
+
+    .list-user .left {
+        margin-right: 25px;
+    }
+
+    .list-user .user-infos {
+        color: #DDD;
+        width: 620px;
+    }
+
+    .list-user .user-infos.left,
+    .list-user .user-infos.left h3 p {
+        text-align: right;
+    }
+
+    .list-user .user-infos.right,
+    .list-user .user-infos.right h3 p {
+        text-align: left;
+    }
+
+        .list-user .user-infos h3 {
+            text-transform: uppercase;
+        }
+
+            .list-user .user-infos h3 p {
+                font-size: 24px;
+                margin: 0 0 5px 0;
+            }
+
+        .list-user .user-infos small {
+            font-size: 15px;
+            text-transform: none;
+        }
+
+            .list-user .user-infos small a:hover {
+                color: #DDD;
+                text-decoration: none;
+            }
+
+    .list-user .user-picture {
+        border: 1px solid #FFF;
+        height: 150px;
+    }
+
+.list-user.last {
+    margin-bottom: 0;
+}

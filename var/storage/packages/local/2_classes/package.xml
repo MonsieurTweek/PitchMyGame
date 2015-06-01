@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.5.2" development="false" install_type="install">
+  <name>2_classes</name>
+  <summary>Export of 2 content classes</summary>
+  <description>This package contains exported definitions of the following content classes:&#13;
+- Contact&#13;
+- Objet contact&#13;
+</description>
+  <type value="contentclass"/>
+  <ezpublish>
+    <version>Community Project 2012.6</version>
+    <named-version>Community Project 2012.6</named-version>
+  </ezpublish>
+  <maintainers>
+    <maintainer>
+      <name>Régent Gaëtan</name>
+      <email>gaetan.regent@maecia.com</email>
+      <role>developer</role>
+    </maintainer>
+  </maintainers>
+  <packaging>
+    <timestamp>1362503734</timestamp>
+    <host>show.staging.maecia.com</host>
+  </packaging>
+  <documents>
+    <document mime-type="text/plain" name="LICENCE"/>
+  </documents>
+  <changelog>
+    <entry timestamp="1362503734" person="Régent Gaëtan" email="gaetan.regent@maecia.com" release="1">
+      <change>Creation of package.</change>
+    </entry>
+  </changelog>
+  <simple-files/>
+  <version>
+    <number>1.0</number>
+    <release>1</release>
+  </version>
+  <licence>GPL</licence>
+  <state>stable</state>
+  <dependencies>
+    <provides>
+      <provide type="ezcontentclass" name="contentclass" value="contact_form"/>
+      <provide type="ezcontentclass" name="contentclass" value="object_contact"/>
+    </provides>
+    <requires/>
+    <obsoletes/>
+    <conflicts/>
+  </dependencies>
+  <install>
+    <item type="ezcontentclass" filename="class-contact_form" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-object_contact" sub-directory="ezcontentclass"/>
+  </install>
+  <uninstall>
+    <item type="ezcontentclass" filename="class-contact_form" sub-directory="ezcontentclass"/>
+    <item type="ezcontentclass" filename="class-object_contact" sub-directory="ezcontentclass"/>
+  </uninstall>
+</package>

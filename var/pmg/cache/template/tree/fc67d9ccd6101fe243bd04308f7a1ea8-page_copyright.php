@@ -1,0 +1,85 @@
+<?php
+$eZTemplateTreeCacheCodeDate = 1044440833;
+
+$TemplateInfo = array( "original_key" => "52744530b2555ddf7a9bbc48199f042c",
+                       "key" => "52744530b2555ddf7a9bbc48199f042c-clean",
+                       "uri" => "design/admin2/templates/page_copyright.tpl",
+                       "debug" => false,
+                       "resource" => "",
+                       "template_path" => "design/admin2/templates/page_copyright.tpl",
+                       "resource_parameters" => array() );
+
+$arr_0 = array( array( 1,
+                       58,
+                       62 ),
+                array( 2,
+                       51,
+                       114 ),
+                "design/admin2/templates/page_copyright.tpl" );
+$arr_2 = array( array( 1,
+                       "setup",
+                       false ) );
+$arr_3 = array( array( 1,
+                       "version",
+                       false ) );
+$arr_1 = array( array( 6,
+                       array( "fetch",
+                              $arr_2,
+                              $arr_3 ),
+                       false ) );
+$arr_4 = array( array( 2,
+                       51,
+                       115 ),
+                array( 2,
+                       78,
+                       142 ),
+                "design/admin2/templates/page_copyright.tpl" );
+$arr_5 = array( array( 2,
+                       78,
+                       143 ),
+                array( 2,
+                       209,
+                       274 ),
+                "design/admin2/templates/page_copyright.tpl" );
+$arr_6 = array( array( 1,
+                       "/ezinfo/about",
+                       false ),
+                array( 6,
+                       array( "ezurl" ),
+                       false ) );
+$arr_7 = array( array( 2,
+                       209,
+                       275 ),
+                array( 2,
+                       230,
+                       296 ),
+                "design/admin2/templates/page_copyright.tpl" );
+$arr_8 = array( array( 2,
+                       230,
+                       297 ),
+                array( 3,
+                       0,
+                       315 ),
+                "design/admin2/templates/page_copyright.tpl" );
+$TemplateRoot = array( 1,
+                       array( array( 2,
+                                     false,
+                                     "\n<a href=\"http://ez.no/ezpublish\" title=\"eZ Publish ",
+                                     $arr_0 ),
+                              array( 3,
+                                     false,
+                                     $arr_1,
+                                     $arr_4 ),
+                              array( 2,
+                                     false,
+                                     "\">eZ Publish</a> Copyright &copy; 1999-2012 <a href=\"http://ez.no/\">eZ Systems AS</a> and others. For more information see <a href=",
+                                     $arr_5 ),
+                              array( 3,
+                                     false,
+                                     $arr_6,
+                                     $arr_7 ),
+                              array( 2,
+                                     false,
+                                     ">ezinfo/about</a>.\n",
+                                     $arr_8 ) ) );
+?>

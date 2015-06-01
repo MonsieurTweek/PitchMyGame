@@ -1,0 +1,42 @@
+a:10:{s:7:"content";s:2324:"<div id="full-news" class="news">
+
+	<div class="news-article">
+		<div class="title">
+			<h2>Platformines is out on Steam !</h2>
+		</div>
+		<div class="outside block">
+			<div class="inside xml">
+				<div class="thumbnail">
+					
+		
+		
+			
+					
+	
+	
+																	
+									
+				
+				
+				<img src="/var/pmg/storage/images/news/platformines-is-out-on-steam/1522-1-fre-FR/platformines-is-out-on-steam_news_full.jpg" width="200" height="185" alt="Platformines is out on Steam !" title="Platformines is out on Steam !" />
+			
+	
+		
+					</div>				
+				
+<p>Le studio indépendant     
+<a href="http://www.magikogaming.com" class="external">Magiko Gaming</a>, à qui l'on doit les excellents Platformance : Temple death &amp; Platformance : Castle Pain, vient de publier sur Steam&nbsp;le très attendu Platformines !</p><p>Présent à la 4ème édition de PitchMyGame (28 Février 2013), ce projet avait su convaincre par son style rétro et une dynamique de jeu accrocheuse.</p><p>Pour rappel, ce jeu de plateforme en 2D mêlant exploration, RPG et shoot propose un gameplay fun et nerveux. Il vous embarque immédiatement dans un univers 16-bit souterrain entièrement aléatoire, truffé de pièges et d'ennemis mortels ! Pour mener à bien votre quête et vous échapper de ce monde minier gigantesque vous disposerez d'un arsenal ultra varié et customisable.</p><p>Plus d'informations sur le site dédié :&nbsp;    
+<a href="http://www.platformines.com/" class="external">http://www.platformines.com</a>&nbsp;ou bien sur la page Steam du jeu :&nbsp;    
+<a href="http://store.steampowered.com/app/264540/" class="external">http://store.steampowered.com/app/264540</a></p>			</div>
+			<div class="author">
+				<p class="text-shadow">Par <span class="name">Gaëtan</span>, le vendredi 28/03/2014</p>
+			</div>
+			<div class="share">
+				<a class="twitter custom-tweet-button" href="https://twitter.com/share" data-url="http://pitchmygame.com/news/platformines-is-out-on-steam" data-text="Platformines is out on Steam !" data-related="PitchMyGame:L'évènement parisien du jeu indé" data-via="PitchMyGame" ></a>
+				<a class="facebook custom-facebook-button" href="https://www.facebook.com/sharer/sharer.php" data-url="http://pitchmygame.com/news/platformines-is-out-on-steam"></a>				
+			</div>
+		</div>
+	</div>
+
+	</div>
+";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:3:{i:0;a:4:{s:4:"text";s:13:"Pitch My Game";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:4:"News";s:3:"url";s:21:"/content/view/full/61";s:9:"url_alias";s:4:"news";s:7:"node_id";s:2:"61";}i:2;a:4:{s:4:"text";s:30:"Platformines is out on Steam !";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:3:"225";}}s:10:"title_path";a:3:{i:0;a:4:{s:4:"text";s:13:"Pitch My Game";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:4:"News";s:3:"url";s:21:"/content/view/full/61";s:9:"url_alias";s:4:"news";s:7:"node_id";s:2:"61";}i:2;a:3:{s:4:"text";s:30:"Platformines is out on Steam !";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:3:"225";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:24:{s:9:"object_id";s:3:"230";s:7:"node_id";s:3:"225";s:14:"parent_node_id";s:2:"61";s:8:"class_id";s:2:"19";s:16:"class_identifier";s:4:"news";s:9:"remote_id";s:32:"adabafadf783f248e521289e7a7b5e3d";s:14:"node_remote_id";s:32:"367f4890304b981f3ae78c66f1ae8ccf";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"3";s:9:"url_alias";s:33:"news/platformines-is-out-on-steam";s:16:"current_language";s:6:"fre-FR";s:13:"language_mask";s:1:"2";s:12:"main_node_id";s:3:"225";s:19:"main_node_url_alias";b:0;s:19:"persistent_variable";b:0;s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:15:"parent_class_id";s:2:"18";s:23:"parent_class_identifier";s:14:"news_container";s:21:"parent_node_remote_id";s:32:"532039749d244396bc370d5e64d21c9f";s:23:"parent_object_remote_id";s:32:"71f9c20cbb6d00c30a0b99c20679f02e";}s:13:"template_list";a:5:{i:0;s:57:"extension/pmg/design/pmg/override/templates/full/news.tpl";i:1;s:68:"extension/pmg/design/pmg/templates/content/datatype/view/ezimage.tpl";i:2;s:61:"design/standard/templates/content/datatype/view/ezxmltext.tpl";i:3;s:75:"extension/pmg/design/pmg/templates/content/datatype/view/ezxmltags/link.tpl";i:4;s:71:"design/standard/templates/content/datatype/view/ezxmltags/paragraph.tpl";}s:9:"cache_ttl";i:-1;}

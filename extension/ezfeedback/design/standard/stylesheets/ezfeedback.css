@@ -1,0 +1,84 @@
+/*-----------------------------------------------------------------------------
+  [CSS - ezfeedback.css]
+
+  Feuille de style du formulaire de contact
+
+  1. Formulaire
+  2. Sidebar
+  
+-----------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------
+  [1. Formulaire]
+*/
+
+body .contact_form .block {
+    margin-bottom:10px;
+    line-height: 20px;
+}
+
+    body .contact_form .block label,
+    body .contact_form .block span.infos {
+        margin-right:3%;
+        width:128px;
+    }
+    
+    body .contact_form .block .selectBox-label {
+        width:396px;
+    }
+
+.contact_form .subject-field {
+    width:430px;
+    float:left;
+}
+    .contact_form .subject-field #subject {
+        margin-top:5px;
+        float:none;
+    }
+
+.contact_form .validation-error {
+    color:#E2003B;
+    font-weight:bold;
+}
+
+.contact_form p.infos {
+    margin-left:148px;
+    text-align:left;
+}
+
+#full-contact_form .button {
+    margin-right:70px;
+}
+
+#popin-losted .block textarea {
+    width:98%;
+}
+
+/*---------------------------------------------------------------------------
+  [2.Sidebar]
+*/
+
+#sidebar-feedback_google_map ul.ico_phone {
+    background:url(../images/ico_phone.png) no-repeat left center;
+    padding-left:40px;
+}
+    #sidebar-feedback_google_map li label {
+        font-weight:bold;
+    }
+
+#sidebar-googlemap-addr {
+    background-color:#2f92cb;
+    padding:10px;
+    margin-top:10px;
+}
+
+    #sidebar-googlemap-addr address {
+        color:#fff;
+        font-size:11px;
+        font-style:normal;
+    }
+
+    #googlemap {
+        height:250px;
+        margin-top:10px;
+    }

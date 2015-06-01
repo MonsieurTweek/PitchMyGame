@@ -1,0 +1,63 @@
+/*-----------------------------------------------------------------------------
+  [CSS - events_container]
+  Feuille de style pour le conteneur de news
+
+  0. General
+  1. Full
+  
+-----------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------
+[0. General]
+*/
+
+	#full-events_container .block {
+		background: url('../../images/common/bg-grey.png') repeat-y transparent;
+		margin-bottom: 30px;
+	}
+
+	#full-events_container .outside {
+		/* Box shadow */
+		-moz-box-shadow: 0px -1px 4px 0px #000000;
+		-webkit-box-shadow: 0px -1px 4px 0px #000000;
+		-o-box-shadow: 0px -1px 4px 0px #000000;
+		box-shadow: 0px -1px 4px 0px #000000;
+		color: #FFF;
+		padding: 0 20px 15px 20px;
+	}
+
+	#full-events_container .inside {
+		background-color: #FFF;
+		-moz-box-shadow: inset 0px -1px 4px 0px #000000;
+		-webkit-box-shadow: inset 0px -1px 4px 0px #000000;
+		-o-box-shadow: inset 0px -1px 4px 0px #000000;
+		box-shadow: inset 0px -1px 4px 0px #000000;
+		color: #000;
+		padding: 20px 12px 20px 12px;
+	}
+
+/*---------------------------------------------------------------------
+[1. Full]
+*/
+
+#full-events_container {
+	/*margin: 10px;
+	margin-top: 30px;*/
+}
+
+	#full-events_container #result-block .outside {
+		padding-top: 30px;
+	}
+
+		#full-events_container #result-block .outside .inside {
+			height: 610px;
+			overflow: hidden;
+			padding-bottom: 10px;
+		}
+
+		#full-events_container #result-block .outside .inside .content {
+            height: 605px;
+			overflow: auto;
+			position: relative;
+			top: 0;
+		}

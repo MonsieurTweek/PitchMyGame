@@ -1,0 +1,163 @@
+<?php
+$eZTemplateTreeCacheCodeDate = 1044440833;
+
+$arr_0 = array( "attribute_identifier",
+                "layout" );
+$arr_1 = array( "attribute",
+                "231" );
+$arr_2 = array( "class_identifier",
+                "news_container" );
+$arr_3 = array( "class",
+                "18" );
+$arr_4 = array( 2 => "1" );
+$arr_5 = array( "ez_lock/not_locked" );
+$TemplateInfo = array( "original_key" => "609801d981f58e5a7901c0ece462d6e0",
+                       "key" => "609801d981f58e5a7901c0ece462d6e0-clean",
+                       "uri" => "design:content/datatype/view/ezpage.tpl",
+                       "debug" => false,
+                       "resource" => "design",
+                       "template_path" => "content/datatype/view/ezpage.tpl",
+                       "resource_parameters" => array( "ezdesign:keys" => array( $arr_0,
+                                                                                 $arr_1,
+                                                                                 $arr_2,
+                                                                                 $arr_3 ),
+                                                       "ezdesign:used_keys" => array( "object" => "59",
+                                                                                      "node" => "61",
+                                                                                      "parent_node" => "2",
+                                                                                      "class" => "18",
+                                                                                      "class_identifier" => "news_container",
+                                                                                      "view_offset" => false,
+                                                                                      "viewmode" => "full",
+                                                                                      "remote_id" => "71f9c20cbb6d00c30a0b99c20679f02e",
+                                                                                      "node_remote_id" => "532039749d244396bc370d5e64d21c9f",
+                                                                                      "navigation_part_identifier" => "ezcontentnavigationpart",
+                                                                                      "depth" => "2",
+                                                                                      "url_alias" => "news",
+                                                                                      "class_group" => false,
+                                                                                      "state" => $arr_4,
+                                                                                      "state_identifier" => $arr_5,
+                                                                                      "section" => "1",
+                                                                                      "section_identifier" => "standard",
+                                                                                      "parent_node_remote_id" => "f3e90596361e31d496d4026eb624c983",
+                                                                                      "parent_object_remote_id" => "b433319616a3d244439665362773ba6b",
+                                                                                      "parent_class" => "16",
+                                                                                      "parent_class_identifier" => "homepage",
+                                                                                      "attribute_identifier" => "layout",
+                                                                                      "attribute" => "231" ),
+                                                       "ezdesign:matched_keys" => array() ) );
+
+$arr_8 = array( "",
+                2,
+                "attribute" );
+$arr_9 = array( array( 3,
+                       "content",
+                       false ) );
+$arr_10 = array( array( 3,
+                        "zone_layout",
+                        false ) );
+$arr_7 = array( "ezini",
+                array( array( 4,
+                              $arr_8,
+                              false ),
+                       array( 5,
+                              $arr_9,
+                              false ),
+                       array( 5,
+                              $arr_10,
+                              false ) ),
+                array( array( 1,
+                              "Template",
+                              false ) ),
+                array( array( 1,
+                              "zone.ini",
+                              false ) ) );
+$arr_11 = array( "",
+                 2,
+                 "attribute" );
+$arr_12 = array( array( 3,
+                        "content",
+                        false ) );
+$arr_13 = array( array( 3,
+                        "zones",
+                        false ) );
+$arr_14 = array( "",
+                 2,
+                 "attribute" );
+$arr_15 = array( array( 3,
+                        "content",
+                        false ) );
+$arr_16 = array( array( 3,
+                        "zone_layout",
+                        false ) );
+$arr_6 = array( "template" => array( array( 6,
+                                            $arr_7,
+                                            false ) ),
+                "zones" => array( array( 4,
+                                         $arr_11,
+                                         false ),
+                                  array( 5,
+                                         $arr_12,
+                                         false ),
+                                  array( 5,
+                                         $arr_13,
+                                         false ) ),
+                "zone_layout" => array( array( 4,
+                                               $arr_14,
+                                               false ),
+                                        array( 5,
+                                               $arr_15,
+                                               false ),
+                                        array( 5,
+                                               $arr_16,
+                                               false ) ) );
+$arr_17 = array( array( 1,
+                        0,
+                        1 ),
+                 array( 3,
+                        50,
+                        170 ),
+                 "extension/ezmodule/design/standard/templates/content/datatype/view/ezpage.tpl" );
+$arr_20 = array( "",
+                 2,
+                 "template" );
+$arr_19 = array( "concat",
+                 array( array( 1,
+                               "design:zone/",
+                               false ) ),
+                 array( array( 4,
+                               $arr_20,
+                               false ) ) );
+$arr_21 = array( "",
+                 2,
+                 "zones" );
+$arr_22 = array( "",
+                 2,
+                 "zone_layout" );
+$arr_18 = array( "uri" => array( array( 6,
+                                        $arr_19,
+                                        false ) ),
+                 "zones" => array( array( 4,
+                                          $arr_21,
+                                          false ) ),
+                 "zone_layout" => array( array( 4,
+                                                $arr_22,
+                                                false ) ) );
+$arr_23 = array( array( 5,
+                        0,
+                        174 ),
+                 array( 5,
+                        85,
+                        259 ),
+                 "extension/ezmodule/design/standard/templates/content/datatype/view/ezpage.tpl" );
+$TemplateRoot = array( 1,
+                       array( array( 4,
+                                     false,
+                                     "def",
+                                     $arr_6,
+                                     $arr_17 ),
+                              array( 4,
+                                     false,
+                                     "include",
+                                     $arr_18,
+                                     $arr_23 ) ) );
+?>

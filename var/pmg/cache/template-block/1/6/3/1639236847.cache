@@ -1,0 +1,139 @@
+                      
+    <title>64 / Nous contacter / Information recueillie - Pitch My Game</title>
+
+    
+    
+    
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+            <meta http-equiv="Content-language" content="fr-FR" />
+
+    
+        <meta name="author" content="" />
+
+        <meta name="copyright" content="" />
+
+        <meta name="description" content="Content Management System" />
+
+        <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+        <meta name="robots" content="index, follow" />
+
+        <meta name="revisit-after" content="15 days" />
+
+    
+    <meta name="generator" content="eZ Publish" />
+    
+
+<link rel="Home" href="/admin" title="Page de garde Pitch My Game" />
+<link rel="Index" href="/admin" />
+<link rel="Top"  href="/admin" title="64 / Nous contacter / Information recueillie - Pitch My Game" />
+<link rel="Search" href="/admin/content/advancedsearch" title="Recherche Pitch My Game" />
+<link rel="Shortcut icon" href="/design/standard/images/favicon.ico" type="image/x-icon" />
+<link rel="Copyright" href="/admin/ezinfo/copyright" />
+<link rel="Author" href="/admin/ezinfo/about" />
+
+<script type="text/javascript">
+(function() {
+    var head = document.getElementsByTagName('head')[0];
+    var printNode = document.createElement('link');
+    printNode.rel = 'Alternate';
+    printNode.href = "/admin/layout/set/print/infocollector/view/64" + document.location.search;
+    printNode.media = 'print';
+    printNode.title = "Version imprimable";
+    head.appendChild(printNode);
+})();
+</script>
+        
+      <link rel="stylesheet" type="text/css" href="/var/pmg/cache/public/stylesheets/4be6cfaacff1ccd9f44a8403dd1b0cce_all.css" />
+
+  
+  
+
+<!--[if lt IE 8]>
+<style>
+/* Terminate floating elements flow in IE < 8 */
+.float-break
+{
+  height: 1%;
+}
+</style>
+<![endif]-->
+<!--[if lte IE 8]>
+<style>
+#controlbar-top .box-bc
+{
+  filter:progid:DXImageTransform.Microsoft.Shadow(color='gray', Direction=180, Strength=8);
+  zoom: 1;
+}
+</style>
+<![endif]-->
+<!--[if lte IE 7]>
+<style>
+#controlbar-top .box-bc
+{
+padding-bottom:8px;
+}
+</style>
+<![endif]-->
+<!--[if IE 6]>
+<style>
+.yui3-js-enabled .scroll-to-top {display: none;}
+input.box, textarea.box {width: 99%}
+</style>
+<![endif]-->
+
+
+  <script type="text/javascript" src="/var/pmg/cache/public/javascript/e42a45aa10255b22cded06c13ad4234b.js" charset="utf-8"></script>
+
+
+</head>
+<body>
+
+<div id="page" class="ezsetupnavigationpart section_id_0">
+
+<div id="header">
+<div id="header-design" class="float-break">
+
+<div id="header-logo">    <a href="/admin/content/dashboard" title="eZ Publish Community Project 2012.6">&nbsp;</a></div>
+
+<div id="header-search"><div class="searchblock">
+<form action="/admin/content/search" method="get">
+                    <input id="searchtext" name="SearchText" type="text" size="20" value="" title="Chercher dans tous les contenus" />
+        <input type="hidden" name="SubTreeArray" value="1" />
+        <input id="searchbutton" class="button hide" name="SearchButton" type="submit" value="Recherche" />
+                    <p class="advanced hide"><a href="/admin/content/advancedsearch" title="Recherche avancée.">Avancé</a></p>
+                <div class="searchbuttonfield" id="searchbuttonfield"></div>
+    </form>
+</div>
+
+<script type="text/javascript">
+
+(function($){
+  if ( !document.getElementById('searchbuttonfield') )return;
+
+  $('#searchbuttonfield').click(function(){
+    if ( $('#searchtext').val() === $('#searchtext').attr('title') )return;
+      $('#searchbutton').click();
+  });
+})( jQuery );
+
+</script></div>
+
+<div id="header-usermenu">    <a href="/admin/user/logout" title="Quitter." id="header-usermenu-logout">Fermeture de session</a></div>
+
+
+<div id="header-topmenu">
+<ul>    <li class="unselected first ezmynavigationpart"><div>    <a href="/admin/content/dashboard" title="Gérer les éléments et informations relatives à votre compte.">Tableau de bord</a></div></li>    <li class="unselected middle ezcontentnavigationpart"><div>    <a href="/admin/content/view/full/2" title="Gérer le contenu du site.">Contenus</a></div></li>    <li class="unselected middle ezmedianavigationpart"><div>    <a href="/admin/content/view/full/43" title="Gérer les images, fichiers, documents, etc.">Médiathèque</a></div></li>    <li class="unselected middle ezusernavigationpart"><div>    <a href="/admin/content/view/full/5" title="Gérer les utilisateurs, les groupes et les droits.">Comptes utilisateurs</a></div></li>    <li class="unselected last eztagsnavigationpart"><div>    <a href="/admin/tags/dashboard" title="eZ Tags dashboard">eZ Tags</a></div></li></ul>
+</div>
+
+<script type="text/javascript">
+
+jQuery( '#header-topmenu ul li' ).click(function(){ jQuery(this).addClass('active'); });
+
+</script>
+
+</div>
+</div>
+
+<hr class="hide" />

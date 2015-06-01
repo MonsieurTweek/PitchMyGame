@@ -1,0 +1,63 @@
+a:10:{s:7:"content";s:1956:"<div id="full-project">
+	<div id="main">
+		<div class="full title">
+			<h2>Rakoo's Adventure</h2>
+		</div>
+		<div id="body" class="outside block">
+			<div id="project-content">
+				<div id="image" class="left">
+                                            
+		
+		
+			
+					
+	
+	
+																	
+									
+				
+				
+				<img src="/var/pmg/storage/images/les-projets/rakoo-s-adventure/567-3-fre-FR/rakoo-s-adventure_project_full.jpg" width="200" height="200" alt="Rakoo's Adventure par Old Skull Games" title="Rakoo's Adventure par Old Skull Games" />
+			
+	
+		
+	                    				</div>
+				<div id="informations" class="right">
+					<div id="description" class="xml">
+						
+<p>Dans une course effrénée pour sa survie, Rakoo devra surmonter les épreuves d’un monde tout aussi fantastique que sauvage…</p>				
+					</div>
+					<div id="tags">
+													<ul id="studio" class="tag first">
+								<li class="label">Studio</li>
+                                    								<li class="value" title="Old Skull Games"> : Old Skull Games</li>
+                                							</ul>
+																			<ul id="genres" class="tag">
+								<li class="label">Genres</li>
+																																									<li class="value"> : Runner</li>
+															</ul>
+																			<ul id="platforms" class="tag last">
+								<li class="label">Plateformes</li>
+																																																										<li class="value"> : Androïd, iOS</li>
+															</ul>
+											</div>
+				</div>
+			</div>
+
+			<div id="project-links">
+
+			</div>
+
+			<hr />
+
+			<div class="share">
+									<a href="https://twitter.com/RakoosAdventure" class="twitter btn-share" target="_blank"></a>
+													<a href="https://www.facebook.com/RakoosAdventure" class="facebook btn-share" target="_blank"></a>
+													<a href="mailto:contact@oldskull.org" class="mail btn-share" target="_blank"></a>
+							</div>
+		</div>
+	</div>
+</div>
+
+
+";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:3:{i:0;a:4:{s:4:"text";s:13:"Pitch My Game";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:7:"Projets";s:3:"url";s:21:"/content/view/full/62";s:9:"url_alias";s:7:"projets";s:7:"node_id";s:2:"62";}i:2;a:4:{s:4:"text";s:17:"Rakoo's Adventure";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:2:"90";}}s:10:"title_path";a:3:{i:0;a:4:{s:4:"text";s:13:"Pitch My Game";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:7:"Projets";s:3:"url";s:21:"/content/view/full/62";s:9:"url_alias";s:7:"projets";s:7:"node_id";s:2:"62";}i:2;a:3:{s:4:"text";s:17:"Rakoo's Adventure";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:2:"90";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:24:{s:9:"object_id";s:2:"86";s:7:"node_id";s:2:"90";s:14:"parent_node_id";s:2:"62";s:8:"class_id";s:2:"21";s:16:"class_identifier";s:7:"project";s:9:"remote_id";s:32:"915f039cae6ff3f2c60da1db5f0d2c44";s:14:"node_remote_id";s:32:"2bbff4980751d92bb04dd88f3e153857";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"3";s:9:"url_alias";s:25:"projets/rakoo-s-adventure";s:16:"current_language";s:6:"fre-FR";s:13:"language_mask";s:1:"2";s:12:"main_node_id";s:2:"90";s:19:"main_node_url_alias";b:0;s:19:"persistent_variable";b:0;s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:15:"parent_class_id";s:2:"20";s:23:"parent_class_identifier";s:18:"projects_container";s:21:"parent_node_remote_id";s:32:"ac997a544c804705de4bb3f9d5b44ec8";s:23:"parent_object_remote_id";s:32:"e75ff6a616cf7ecdf95955b1c0f2eca1";}s:13:"template_list";a:4:{i:0;s:60:"extension/pmg/design/pmg/override/templates/full/project.tpl";i:1;s:68:"extension/pmg/design/pmg/templates/content/datatype/view/ezimage.tpl";i:2;s:61:"design/standard/templates/content/datatype/view/ezxmltext.tpl";i:3;s:71:"design/standard/templates/content/datatype/view/ezxmltags/paragraph.tpl";}s:9:"cache_ttl";i:-1;}

@@ -1,0 +1,85 @@
+a:10:{s:7:"content";s:6962:"
+<div id="full-contact_form">
+    <div id="main">
+        <div class="full title">
+            <h2 class="">Nous contacter</h2>
+        </div>
+        <div id="body" class="outside block">
+                            <div class="intro">
+                    
+<p>Vous pouvez utiliser le formulaire de contact ci-dessous, ou bien nous envoyer directement votre demande :</p>                </div>
+                                    <form class="formJS contact_form" action="/feedback/action" method="post" enctype="multipart/form-data">
+                <fieldset class="left">
+                                                                                                                                                                                                                            
+                            
+                                                                                                                                                    <div class="input-block">
+                                                                            <label for="your_name">
+                                            Votre nom
+                                                                                            <span class="required">*</span>
+                                                                                    </label>
+                                                                                                                <input
+                                            type="text"
+                                            value=""
+                                            id="your_name"
+                                            name="your_name"
+                                            class=" validate['required']"
+                                            placeholder="Entrez votre nom"
+                                        />
+                                                                    </div>
+                            
+                                                                                                
+                            
+                                                                                                                                                    <div class="input-block">
+                                                                            <label for="mail">
+                                            Votre email
+                                                                                            <span class="required">*</span>
+                                                                                    </label>
+                                                                                                                <input
+                                            type="text"
+                                            value=""
+                                            id="mail"
+                                            name="mail"
+                                            class=" validate['required'] validate['email']"
+                                            placeholder="Entrez votre E-mail"
+                                        />
+                                                                    </div>
+                            
+                                                                                                
+                            
+                                                                                                                    
+                                                                                                
+                            
+                                                                                                                                <div class="input-block">
+                                        <label class="selectBoxLabel" for="objSelect">Objet du message <span class="required">*</span></label>
+                                        <select class="forms fform validate['required'] selectBox" name="object" id="objSelect">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            <option selected="selected" value="187">J'ai quelque chose à dire !</option>
+                                                                                    <option value="92">J'ai trouvé un bug !</option>
+                                                                                    <option value="93">Je souhaite participer au prochain PMG</option>
+                                                                                                                                                                                                                                                                        <option value="default">Autre</option>
+                                                                                                                                                                            </select>
+                                    </div>
+                                                                                        
+                                                                                                
+                            
+                                                                                        <div class="input-block">
+                                                                                                                <textarea
+                                            rows="10" cols="74"
+                                            id="message"
+                                            name="message"
+                                            class=" validate['required']"
+                                            placeholder="Saisissez votre message ici ..."
+                                        ></textarea>
+                                                                    </div>
+                            
+                                                                                                                                        <p class="infos">(*) champs obligatoires</p>
+                </fieldset>
+                <fieldset class="right">
+                    <input class="button btn orange" type="submit" name="send" id="send" value="Envoyer" />
+                    <input type="hidden" name="RedirectURI" value="/nous-contacter" />
+                </fieldset>
+            </form>
+            <hr>
+        </div>
+    </div>
+</div>
+";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:2:{i:0;a:4:{s:4:"text";s:13:"Pitch My Game";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:14:"Nous contacter";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:2:"67";}}s:10:"title_path";a:2:{i:0;a:4:{s:4:"text";s:13:"Pitch My Game";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:3:{s:4:"text";s:14:"Nous contacter";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:2:"67";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:24:{s:9:"object_id";s:2:"63";s:7:"node_id";s:2:"67";s:14:"parent_node_id";s:1:"2";s:8:"class_id";s:2:"26";s:16:"class_identifier";s:12:"contact_form";s:9:"remote_id";s:32:"02bff655f526b4f7d2d067a94d5c25d8";s:14:"node_remote_id";s:32:"f0f2baab66708fc4b4d4e84daac3a850";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"2";s:9:"url_alias";s:14:"nous-contacter";s:16:"current_language";s:6:"fre-FR";s:13:"language_mask";s:1:"2";s:12:"main_node_id";s:2:"67";s:19:"main_node_url_alias";b:0;s:19:"persistent_variable";a:1:{s:4:"site";a:1:{s:10:"page_title";s:14:"Nous contacter";}}s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:15:"parent_class_id";s:2:"16";s:23:"parent_class_identifier";s:8:"homepage";s:21:"parent_node_remote_id";s:32:"f3e90596361e31d496d4026eb624c983";s:23:"parent_object_remote_id";s:32:"b433319616a3d244439665362773ba6b";}s:13:"template_list";a:3:{i:0;s:61:"extension/pmg/design/pmg/override/templates/full/feedback.tpl";i:1;s:61:"design/standard/templates/content/datatype/view/ezxmltext.tpl";i:2;s:71:"design/standard/templates/content/datatype/view/ezxmltags/paragraph.tpl";}s:9:"cache_ttl";i:-1;}

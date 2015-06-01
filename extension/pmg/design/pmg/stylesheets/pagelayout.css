@@ -1,0 +1,289 @@
+/*-----------------------------------------------------------------------------
+  [CSS - Pagelayout]
+  Feuille de style commune à toutes les pages.
+  1. Global
+  2. Header
+  3. Footer
+  4. Sidebar
+  X. Debug
+-----------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------
+[1. Global]
+*/
+body {
+    background: url('/extension/pmg/design/pmg/images/footer/bg.png') repeat;
+	font-family: 'Myriad Pro', Arial, 'sans-serif';
+}
+
+#page-wrap {
+	background: url('../images/common/bg.png') repeat-x #ffc600;
+	text-align: center;
+}
+
+	#page {
+		background-color: #DDDDDD;
+		-moz-box-shadow: 1px 1px 4px 0px #000000;
+		-webkit-box-shadow: 1px 1px 4px 0px #000000;
+		-o-box-shadow: 1px 1px 4px 0px #000000;
+		box-shadow: 1px 1px 4px 0px #000000;
+		margin: auto;
+		padding: 10px;
+		text-align: left;
+		width: 960px;
+	}
+
+		#page > #content {
+			overflow: hidden;
+		}
+
+			#page > #content > #main {
+				float: left;
+				margin-left: 10px;
+			}
+
+			#page > #content > aside > #sidebar {
+				float: right;
+				margin-top: 10px;
+				margin-right: 10px;
+			}
+
+
+/*---------------------------------------------------------------------
+[2. Header]
+*/
+#header-wrap {
+	/*background: url('../images/header/header-bg.png') repeat-x #464646;*/
+	background: url('../images/header/bg.png') repeat-x;
+	text-align: center;
+}
+
+	#header {
+		/*background: url('../images/header/header-bg.png') repeat-x #464646;*/
+		background-color: transparent;
+		height: 150px;
+		margin: auto;
+		text-align: left;
+		width: 980px;
+	}
+
+		#header .sitename {
+	   		/*-webkit-background-clip: text;
+		    -moz-background-clip: text;
+		    background-clip: text;*/
+			color: #FFFFFF;
+			height: 72px;
+			font-family: Arial;
+			font-size: 68px;
+			margin-bottom: 6px;
+			padding-left: 30px;
+			text-shadow: 0px 2px 3px rgba(0,0,0,0.1);
+		}
+
+			#header .sitename a,
+			#header .sitename a:focus,
+			#header .sitename a:hover {
+				text-decoration: none;
+			}
+
+			#header .sitename .share {
+				display: inline-block;
+				height: 50px;
+				text-align: right;
+				vertical-align: middle;
+				width: 400px;
+			}
+
+				#header .sitename .share a {
+					display: inline-block;
+					height: 38px;
+					width: 38px;
+				}
+
+				#header .sitename .share a.twitter {
+					background: url('../images/header/twitter.png') no-repeat transparent;
+					margin-right: 10px;
+				}
+
+				#header .sitename .share a.facebook {
+					background: url('../images/header/facebook.png') no-repeat transparent;
+					margin-left: 10px;
+					margin-right: 10px;
+				}
+
+				#header .sitename .share a.flickr {
+					background: url('../images/header/flickr.png') no-repeat transparent;
+					margin-left: 10px;
+				}
+
+				#header .sitename .share a:hover {
+					background-position: 0 -38px;
+				}
+
+		#header .baseline {
+			color: #FFF;
+			font-size: 18px;
+			font-family: 'silkscreennormal', 'Myriad Pro', Arial, 'sans-serif';
+			margin-bottom: 6px;
+			padding-left: 30px;
+			text-transform: uppercase;
+		}
+
+		#header #nav {
+			text-align: left;
+		}
+
+			#header #nav ul {
+				/*background: url('../images/header/header-nav.png') repeat-x #545454;*/
+				background-color: transparent;
+				margin: auto;
+				text-align: center;
+			}
+
+				#header #nav ul li.level1 {
+					border-right: 1px solid #363636;
+					border-left: 1px solid #676767;
+					color: #FFF;
+					display: inline;
+					line-height: 48px;
+					margin: 0;
+					padding: 0 20px;
+					font-size: 20px;
+					font-weight: bold;
+					text-transform: uppercase;
+					text-align: center;
+				}
+
+				#header #nav ul li.level1.first {
+					border-left: 0;
+					padding-left: 0;
+				}
+
+				#header #nav ul li.level1.last {
+					border-right: 0;
+				}
+
+					#header #nav ul li a:hover,
+					#header #nav ul li.active-trail a {
+						color: #ffb200;
+						text-decoration: none;
+						text-shadow: 0px 0px 8px #ff5a00;
+					}
+
+/*---------------------------------------------------------------------
+[3. Footer]
+*/
+#footer-wrap {
+	background: url('../images/footer/bg.png') repeat;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+	#footer {
+		height: auto;
+		margin: auto;
+		padding-top: 30px;
+		padding-left: 20px;
+		text-align: left;
+		width: 980px;
+	}
+
+		#footer .title {
+			color: #1c1c1c;
+			font-size: 20px;
+			font-weight: bold;
+			padding-bottom: 10px;
+			margin-bottom: 15px;
+		}
+
+		#footer .sitemap {
+			float: left;
+			margin-right: 20px;
+			width: 300px;
+		}
+
+			#footer .sitemap .title {
+				background: url('../images/footer/border-small.png') no-repeat transparent bottom;
+				width: 300px;
+			}
+
+			#footer .sitemap .children li {
+				color: #161616;
+				font-weight: bold;
+				font-size: 15px;
+				line-height: 20px;
+			}
+
+		#footer .events {
+			float: left;
+			width: 620px;
+		}
+
+			#footer .events .title {
+				background: url('../images/footer/border-large.png') no-repeat transparent bottom;
+			}
+
+			#footer .events .footer-event {
+				float: left;
+				margin-right: 20px;
+				width: 180px;
+			}
+
+				#footer .events .footer-event .subtitle {
+					border-bottom: 2px solid #131313;
+					color: #161616;
+					font-weight: bold;
+					font-size: 15px;
+					line-height: 20px;
+				}
+
+					#footer .events .footer-event .subtitle {
+						text-decoration: none;
+					}
+
+					#footer .events .footer-event .projects li {
+						color: #161616;
+						font-weight: bold;
+						font-size: 15px;
+						line-height: 20px;
+					}
+
+		#footer .copyright {
+			clear: both;
+			color: #161616;
+			margin-bottom: 20px;
+			padding-top: 40px;
+			font-weight: bold;
+			font-size: 15px;
+			text-align: center;
+		}
+
+
+/*---------------------------------------------------------------------
+[4. Sidebar]
+*/
+aside #sidebar .sidebar-block {
+	margin-bottom: 25px;
+}
+
+
+/*---------------------------------------------------------------------
+[X. Debug]
+*/
+#debug { background:#fff; font-size: 13px; display: block; padding:15px; margin-top:50px; }
+#debug h1 { font-size: 15px; font-weight: bolder; margin: 0.75em 0; }
+#debug h2 { font-size: 13px; font-weight: bolder; margin: 0.65em 0; }
+#debug h3 { font-size: 12px; font-weight: bolder; margin: 0.55em 0; }
+#debug h4 { font-size:15px; font-weight: bolder; margin: 0.50em 0; }
+#debug b { font-weight: bold; }
+#debug .debug-toolbar { display: none; }
+#debug table tr td,
+#debug table tr th { padding: 3px; }
+#debug table table tr td.debugheader { background-color: #fff!important; }
+#debug table table tr:nth-child(2n+1) td { background-color: #f3f3f3; }
+#debug table table tr.nth_child_odd td { background-color: #f3f3f3; }
+#debug table table tr:nth-child(2n) td:nth-child(2n) { background-color: #f3f3f3; }
+#debug table table tr.nth_child_even td.nth_child_even { background-color: #f3f3f3; }
+#debug table table tr:nth-child(2n+1) td:nth-child(2n) { background-color: #e3e3e3; }
+#debug table table tr.nth_child_odd td.nth_child_even { background-color: #e3e3e3; }

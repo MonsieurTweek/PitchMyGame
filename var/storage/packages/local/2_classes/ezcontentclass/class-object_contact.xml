@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false" always-available="false" sort-field="path" sort-order="1">
+  <serialized-name-list>a:2:{s:6:"fre-FR";s:13:"Objet contact";s:16:"always-available";s:6:"fre-FR";}</serialized-name-list>
+  <identifier>object_contact</identifier>
+  <serialized-description-list>a:2:{s:6:"fre-FR";s:0:"";s:16:"always-available";s:6:"fre-FR";}</serialized-description-list>
+  <remote-id>24d167c9bd5d6668bd373a16b9737822</remote-id>
+  <object-name-pattern>&lt;name&gt;</object-name-pattern>
+  <url-alias-pattern>&lt;name&gt;</url-alias-pattern>
+  <remote>
+    <site-url>http://show.staging.maecia.com/</site-url>
+    <url>http://show.staging.maecia.com/class/view/66</url>
+    <groups>
+      <group id="13" name="Contact"/>
+    </groups>
+    <id>66</id>
+    <created>1310050383</created>
+    <modified>1310120073</modified>
+    <creator>
+      <user-id>59</user-id>
+    </creator>
+    <modifier>
+      <user-id>59</user-id>
+    </modifier>
+  </remote>
+  <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>343</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"fre-FR";s:14:"Nom de l'objet";s:16:"always-available";s:6:"fre-FR";}</serialized-name-list>
+      <identifier>name</identifier>
+      <serialized-description-list>a:2:{s:6:"fre-FR";s:0:"";s:16:"always-available";s:6:"fre-FR";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"fre-FR";s:0:"";s:16:"always-available";s:6:"fre-FR";}</serialized-data-text>
+      <placement>1</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>344</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"fre-FR";s:12:"Destinataire";s:16:"always-available";s:6:"fre-FR";}</serialized-name-list>
+      <identifier>to</identifier>
+      <serialized-description-list>a:2:{s:6:"fre-FR";s:0:"";s:16:"always-available";s:6:"fre-FR";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"fre-FR";s:0:"";s:16:"always-available";s:6:"fre-FR";}</serialized-data-text>
+      <placement>2</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezboolean" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>345</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"fre-FR";s:24:"Est le choix par défaut";s:16:"always-available";s:6:"fre-FR";}</serialized-name-list>
+      <identifier>default</identifier>
+      <serialized-description-list>a:2:{s:6:"fre-FR";s:0:"";s:16:"always-available";s:6:"fre-FR";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"fre-FR";s:0:"";s:16:"always-available";s:6:"fre-FR";}</serialized-data-text>
+      <placement>3</placement>
+      <datatype-parameters>
+        <default-value is-set="false"/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezboolean" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>348</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"fre-FR";s:34:"Est l'objet pour les perdus de vue";s:16:"always-available";s:6:"fre-FR";}</serialized-name-list>
+      <identifier>islost</identifier>
+      <serialized-description-list>a:2:{s:6:"fre-FR";s:0:"";s:16:"always-available";s:6:"fre-FR";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"fre-FR";s:0:"";s:16:"always-available";s:6:"fre-FR";}</serialized-data-text>
+      <placement>4</placement>
+      <datatype-parameters>
+        <default-value is-set="false"/>
+      </datatype-parameters>
+    </attribute>
+  </ezcontentclass-attri:attributes>
+</content-class>

@@ -1,0 +1,233 @@
+/*-----------------------------------------------------------------------------
+  [CSS - news]
+  Feuille de style pour les contenus news
+
+  0. General
+  1. Full
+  	1.1. News article
+  	1.2. Comments
+  2. List
+  
+-----------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------
+[0. General]
+*/
+.news .title {
+	/* Border radius */
+	-webkit-border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0px 0px;
+    /* Box shadow */
+    -moz-box-shadow: 0px -1px 4px 0px #000000;
+	-webkit-box-shadow: 0px -1px 4px 0px #000000;
+	-o-box-shadow: 0px -1px 4px 0px #000000;
+	box-shadow: 0px -1px 4px 0px #000000;
+    /* Gradient */
+    background: #fcb13f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fcb13f 0%, #fc8e2b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcb13f), color-stop(100%,#fc8e2b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fcb13f 0%,#fc8e2b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fcb13f 0%,#fc8e2b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fcb13f 0%,#fc8e2b 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fcb13f 0%,#fc8e2b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcb13f', endColorstr='#fc8e2b',GradientType=0 ); /* IE6-9 */
+	width: 540px;
+}
+
+	.news .title h2 {
+   		/*-webkit-background-clip: text;
+	    -moz-background-clip: text;
+	    background-clip: text;*/
+		/*background-color: #5e2a01;*/
+		color: #5e2a01;
+		font-size: 28px;
+		font-weight: bold;
+		font-family: 'silkscreennormal', 'Myriad Pro', Arial, 'sans-serif';
+		line-height: 40px;
+		margin-left: 20px;
+		text-transform: uppercase;
+		text-shadow: 0px 2px 3px rgba(255,255,255,0.1);
+	}
+
+		.news .title h2 a {
+			font-family: 'silkscreennormal', 'Myriad Pro', Arial, 'sans-serif';			
+		}
+
+/*---------------------------------------------------------------------
+[1. Full]
+*/
+#full-news {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+	/*---------------------------------------------------------------------
+	[1.1. News article]
+	*/
+	#full-news .news-article {
+		margin-bottom: 20px;			
+		max-width: 600px;
+	}
+
+		#full-news .news-article img {
+			max-width: 530px;
+		}
+
+		#full-news .news-article .title {
+			width: auto;
+		}
+
+				#full-news .news-article .inside .thumbnail {
+					float: right;
+					margin-left: 20px;
+				}
+
+					#full-news .news-article .inside .thumbnail img {
+						border: 2px solid #343434;
+					}
+
+			#full-news .news-article .outside .author {
+				border-bottom: 1px #FFF solid;
+				font-weight: bold;
+				overflow: hidden;
+				padding: 10px 20px;
+			}
+
+			#full-news .news-article .outside .share {
+				padding: 20px 0;
+				text-align: center;
+			}
+
+				#full-news .news-article .outside .share a {
+					margin: auto;
+				}
+
+					#full-news .news-article .outside .share a {
+						display: inline-block;
+						height: 38px;
+						width: 38px;
+					}
+
+					#full-news .news-article .outside .share a.twitter {
+						background: url('../../images/common/twitter.png') no-repeat transparent;
+						margin-right: 10px;
+					}
+
+					#full-news .news-article .outside .share a.facebook {
+						background: url('../../images/common/facebook.png') no-repeat transparent;
+						margin-left: 10px;
+					}
+
+					#full-news .news-article .outside .share a:hover {
+						background-position: 0 -38px;
+					}
+
+
+	/*---------------------------------------------------------------------
+	[1.2. Comments]
+	*/
+	#full-news .comments {
+		max-width: 600px;
+	}
+
+	#full-news .form-container {
+		background: url('../../images/common/bg-grey.png') repeat-y transparent;
+        -moz-box-shadow: 1px 1px 4px 0px #000000;
+		-webkit-box-shadow: 1px 1px 4px 0px #000000;
+		-o-box-shadow: 1px 1px 4px 0px #000000;
+		box-shadow: 1px 1px 4px 0px #000000;
+		padding: 20px 10px;
+	}
+
+		#full-news .comments .form {
+			padding-bottom: 10px;
+			text-align: right;
+		}	
+
+			#full-news .comments .form textarea {
+				margin-bottom: 30px;
+				width: 574px;
+			}
+
+			#full-news .comments .form input[type="submit"] {
+				display: none;
+			}
+
+			#full-news .comments .form .link-submit {
+				/* Border radius */
+				-webkit-border-radius: 4px 4px 4px 4px;
+			    border-radius: 4px 4px 4px 4px;
+			    /* Box shadow */
+			    -moz-box-shadow: 0px -1px 4px 0px #000000;
+				-webkit-box-shadow: 0px -1px 4px 0px #000000;
+				-o-box-shadow: 0px -1px 4px 0px #000000;
+				box-shadow: 0px -1px 4px 0px #000000;
+			    /* Gradient */
+			    background: #fcb13f; /* Old browsers */
+				background: -moz-linear-gradient(top,  #fcb13f 0%, #fc8e2b 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcb13f), color-stop(100%,#fc8e2b)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #fcb13f 0%,#fc8e2b 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #fcb13f 0%,#fc8e2b 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #fcb13f 0%,#fc8e2b 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #fcb13f 0%,#fc8e2b 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcb13f', endColorstr='#fc8e2b',GradientType=0 ); /* IE6-9 */
+				padding: 10px;
+			}
+
+
+/*---------------------------------------------------------------------
+[2. List]
+*/
+#list-news {
+	margin-bottom: 20px;
+}
+
+	#list-news .title {
+	}
+
+		#list-news .title h2 {
+			font-size: 20px;
+			line-height: 30px;
+		}
+
+	#list-news .content {
+        /* Box shadow */
+        background-color: #FFFFFF; 
+        -moz-box-shadow: 1px 1px 4px 0px #000000;
+		-webkit-box-shadow: 1px 1px 4px 0px #000000;
+		-o-box-shadow: 1px 1px 4px 0px #000000;
+		box-shadow: 1px 1px 4px 0px #000000;
+		min-height: 120px;
+		width: 500px;
+		padding: 20px;
+		padding-bottom: 0;
+	}
+
+		#list-news .content .thumbnail {
+			float: left;
+			margin-right: 20px;
+		}
+
+		#list-news .content .description {
+			color: #343434;
+			font-size: 15px;
+			height: 100px;
+			line-height: 17px;
+			text-align: justify;
+		}
+
+			#list-news .content .description .read-more,
+			#list-news .content .description .read-more:visited {
+				color: #ff5800;
+				margin-left: 10px;
+				font-weight: bold;
+			}
+
+		#list-news .content .published {
+			color: #343434;
+			font-size: 15px;
+			font-style: italic;
+			margin-top: 15px;
+			padding-bottom: 5px;
+			text-align: right;
+		}

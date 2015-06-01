@@ -1,0 +1,147 @@
+<?php
+$eZTemplateTreeCacheCodeDate = 1044440833;
+
+$TemplateInfo = array( "original_key" => "f8d4d1983d87c89884a67057080eb5bb",
+                       "key" => "f8d4d1983d87c89884a67057080eb5bb-clean",
+                       "uri" => "design/admin2/templates/page_topmenu.tpl",
+                       "debug" => false,
+                       "resource" => "",
+                       "template_path" => "design/admin2/templates/page_topmenu.tpl",
+                       "resource_parameters" => array() );
+
+$arr_0 = array( array( 1,
+                       0,
+                       0 ),
+                array( 3,
+                       0,
+                       31 ),
+                "design/admin2/templates/page_topmenu.tpl" );
+$arr_2 = array( 3,
+                46,
+                79 );
+$arr_3 = array( 4,
+                4,
+                84 );
+$arr_4 = array( array( 1,
+                       "design:page_topmenuitem.tpl",
+                       false ) );
+$arr_5 = array( array( 4,
+                       array( "",
+                              2,
+                              "menu" ),
+                       false ) );
+$arr_7 = array( 3,
+                "identifier",
+                false );
+$arr_6 = array( array( 4,
+                       array( "",
+                              2,
+                              "navigation_part" ),
+                       false ),
+                array( 5,
+                       array( $arr_7 ),
+                       false ) );
+$arr_8 = array( 4,
+                4,
+                85 );
+$arr_9 = array( 4,
+                115,
+                196 );
+$arr_10 = array( 4,
+                 115,
+                 197 );
+$arr_11 = array( 5,
+                 0,
+                 198 );
+$arr_1 = array( array( 2,
+                       false,
+                       "    ",
+                       array( $arr_2,
+                              $arr_3,
+                              "design/admin2/templates/page_topmenu.tpl" ) ),
+                array( 4,
+                       false,
+                       "include",
+                       array( "uri" => $arr_4,
+                              "menu_item" => $arr_5,
+                              "navigationpart_identifier" => $arr_6 ),
+                       array( $arr_8,
+                              $arr_9,
+                              "design/admin2/templates/page_topmenu.tpl" ) ),
+                array( 2,
+                       false,
+                       false,
+                       array( $arr_10,
+                              $arr_11,
+                              "design/admin2/templates/page_topmenu.tpl" ) ) );
+$arr_14 = array( "",
+                 2,
+                 "ui_context" );
+$arr_15 = array( "true" );
+$arr_13 = array( "topmenu",
+                 array( array( 4,
+                               $arr_14,
+                               false ) ),
+                 array( array( 6,
+                               $arr_15,
+                               false ) ) );
+$arr_16 = array( "",
+                 2,
+                 "menu" );
+$arr_12 = array( "array" => array( array( 6,
+                                          $arr_13,
+                                          false ) ),
+                 "item_var" => array( array( 4,
+                                             $arr_16,
+                                             false ) ) );
+$arr_17 = array( array( 3,
+                        0,
+                        32 ),
+                 array( 3,
+                        46,
+                        78 ),
+                 "design/admin2/templates/page_topmenu.tpl" );
+$arr_18 = array( array( 5,
+                        7,
+                        208 ),
+                 array( 10,
+                        0,
+                        255 ),
+                 "design/admin2/templates/page_topmenu.tpl" );
+$arr_19 = array( array( null,
+                        null,
+                        null ),
+                 array( null,
+                        null,
+                        null ),
+                 null );
+$arr_20 = array( array( 12,
+                        0,
+                        364 ),
+                 array( 14,
+                        0,
+                        374 ),
+                 "design/admin2/templates/page_topmenu.tpl" );
+$TemplateRoot = array( 1,
+                       array( array( 2,
+                                     false,
+                                     "<div id=\"header-topmenu\">\n<ul>",
+                                     $arr_0 ),
+                              array( 4,
+                                     $arr_1,
+                                     "foreach",
+                                     $arr_12,
+                                     $arr_17 ),
+                              array( 2,
+                                     false,
+                                     "</ul>\n</div>\n\n<script type=\"text/javascript\">\n",
+                                     $arr_18 ),
+                              array( 2,
+                                     false,
+                                     "\njQuery( '#header-topmenu ul li' ).click(function(){ jQuery(this).addClass('active'); });\n",
+                                     $arr_19 ),
+                              array( 2,
+                                     false,
+                                     "\n</script>\n",
+                                     $arr_20 ) ) );
+?>

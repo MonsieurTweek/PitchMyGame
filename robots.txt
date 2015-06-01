@@ -1,0 +1,22 @@
+User-agent: *
+
+Disallow: /autoload
+Disallow: /bin
+Disallow: /cronjobs
+Disallow: /design
+Disallow: /doc
+Disallow: /extension
+Disallow: /kernel
+Disallow: /lib
+Disallow: /packages
+Disallow: /schemas
+Disallow: /settings
+Disallow: /share
+Disallow: /support
+Disallow: /update
+Disallow: /var/autoload
+Disallow: /var/cache
+Disallow: /var/log
+Disallow: /var/storage
+Disallow: /var/LECODEDUPROJ/cache
+Disallow: /var/LECODEDUPROJ/log

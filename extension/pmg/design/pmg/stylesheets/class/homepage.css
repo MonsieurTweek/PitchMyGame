@@ -1,0 +1,39 @@
+#full-homepage {
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+	#full-homepage #slideshow {
+		-moz-box-shadow: 1px 1px 5px 2px #000000;
+		-webkit-box-shadow: 1px 1px 5px 2px #000000;
+		-o-box-shadow: 1px 1px 5px 2px #000000;
+		box-shadow: 1px 1px 5px 2px #000000;
+		filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=134, Strength=5);
+		border: 20px solid #FFF;
+		border-bottom: 40px solid #FFF;
+		margin: 20px auto 30px auto;
+		width: 880px;
+		text-align: center;
+	}
+
+		#full-homepage #slideshow img {
+			width: 880px;
+		}
+
+	#full-homepage #left {
+		float: left;
+		margin-left: 20px;
+		padding-right: 50px;
+		width: 540px;
+	}
+
+	#full-homepage #right {
+		margin-right: 20px;
+		float: right;
+	}
+
+		#full-homepage #star_project {
+			height: 200px;
+			margin-bottom: 25px;
+			width: 300px;
+		}

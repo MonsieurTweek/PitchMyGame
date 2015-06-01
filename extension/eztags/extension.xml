@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>eZ Tags</name>
+        <version>1.3.0-dev</version>
+        <copyright>Copyright (C) 2010-2012 Netgen d.o.o., 1999-2012 eZ Systems AS</copyright>
+        <license>GNU General Public License v2.0</license>
+        <info_url>http://projects.ez.no/eztags</info_url>
+    </metadata>
+
+    <dependencies>
+        <uses>
+            <extension name="ezfind" />
+        </uses>
+        <requires>
+            <extension name="ezjscore" />
+        </requires>
+    </dependencies>
+</software>

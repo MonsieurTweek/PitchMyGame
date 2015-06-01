@@ -1,0 +1,17 @@
+/*-----------------------------------------------------------------------------
+  [CSS - Layout]
+
+  Feuille de style pour le positionnement des éléments
+  
+  1. Global
+  
+-----------------------------------------------------------------------------*/
+#gameArea {
+  text-align: center;
+  width: 438px;
+  margin: auto;
+}
+
+#gameArea #gameCanvas {
+	margin: auto;
+}

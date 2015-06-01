@@ -1,0 +1,41 @@
+Bugfixes
+========
+- #19062: URL Wildcard not working due to url alias placeholder
+- #19169: duplicated object state groups after changing default language
+- #19180: ezpSessionHandlerPHP based sites don't expire active user sessions upon deactivation of the user
+- #19190: eZContentObjectTreeNode::subTreeByNodeID language / attribute filter bug
+- #19251: Wrong participant list for collaboration notifications when running cronjob
+- #19349: Table Width not being respected in eZP 4.6
+- #19353: Webshop Redirect after add to basket not working with lazy sessions
+- #19401: custom tags attributes using mixed case - error while enabling OE
+- #19439: Section assignment in content edit doesn't clear cache
+- #19440: Installation failed at Site selection
+- #19453: Some cluster related "define" calls are not commented in config.php-RECOMMENDED file
+- #19460: language_switcher template operator does not take the query string into account
+- #19480: ezcache.php --clear-all --purge deletes ALL images with eZFS2
+- #19512: Regression: 'Language' parameter not considered any more in eZContentObjectTreeNode::subTreeByNodeID()
+
+Enhancements
+============
+- #18435: List also the Scripts[] from CronsjobsSettings
+- #19477: Assigning section and object states shouldn't be part of content edit
+
+Pull requests
+=============
+- #347: from patdec/install-failed-019440
+- #348: from gggeek/issue_014172
+- #350: from crevillo/issue-019453
+- #354: from emodric/croatian_locale_fix
+- #356: from Heliopsis-HQ/objectattribute_patch
+- #360: from websoftix/runcronjobs--list
+- #362: from ezsystems/languageAttributeFilterIssue
+- #364: from ezsystems/19169_duplicate_object_state_group
+- #366: from jjCavalleri/19353
+
+Miscellaneous
+=============
+- Moved PostgreSQL upgrade script to correct place
+- initialize content object validation parameters to avoid PHP notice
+- Documented absolute VarDir/CacheDir as not officially supported
+- Fix month and day names in Croatian locale
+- Since we don't recommend using the 'script' param anymore to load tpl ops but rely on class autoloading, change the instructions we give in comment form for creating new ops
