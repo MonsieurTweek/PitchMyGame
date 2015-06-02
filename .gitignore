@@ -41,3 +41,5 @@ Thumbs.db
 settings/override/site.ini.append.php
 var/cache/
 var/pmg/cache/
+var/log
+var/pmg/log
